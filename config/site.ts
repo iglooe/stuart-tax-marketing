@@ -1,18 +1,32 @@
 export type SiteConfig = typeof siteConfig
 
 export const siteConfig = {
-  name: "Next.js",
+  name: "stuart tax group inc.",
   description:
-    "Beautifully designed components built with Radix UI and Tailwind CSS.",
+    "neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.",
   mainNav: [
     {
       title: "Home",
       href: "/",
     },
+    {
+      title: "About",
+      href: "/about",
+    },
+    {
+      title: "Services",
+      href: "/services",
+    },
+    {
+      title: "Contact",
+      href: "/contact",
+    },
   ],
-  links: {
-    twitter: "https://twitter.com/shadcn",
-    github: "https://github.com/shadcn/ui",
-    docs: "https://ui.shadcn.com",
+  contact: {
+    address: "7100 Circle S Rd, Austin, TX 78745",
+    areaCode: "512",
+    phone: "445- 3379",
+    cell: "293-7130",
+    email: "contact@stuarttaxgroup.com",
   },
 }

@@ -34,6 +34,9 @@
     --ring: 215 20.2% 65.1%;
 
     --radius: 0.5rem;
+
+    --company-dark: 15 14% 29%;
+    --company-light: 27, 22%, 62%;
   }
 
   .dark {
