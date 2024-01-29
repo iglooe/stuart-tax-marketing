@@ -1,0 +1,28 @@
+{
+  "IndexPage": {
+    "hero": "Servicios de contabilidad expertos en los que puede confiar",
+    "description": "Brindamos servicios profesionales de preparación de impuestos, teneduría de libros y consultoría financiera adaptados a sus necesidades.",
+    "cta": "Empezar"
+  },
+  "Error": {
+    "title": "Etwas ist schief gelaufen!",
+    "description": "<p>Es ist leider ein Problem aufgetreten.</p><p>Du kannst versuchen <retry>diese Seite neu zu laden</retry>.</p>"
+  },
+  "NotFoundPage": {
+    "title": "Seite nicht gefunden",
+    "description": "Bitte überprüfe die Addressleiste deines Browsers oder verwende die Navigation um zu einer bekannten Seite zu wechseln."
+  },
+  "LocaleLayout": {
+    "title": "next-intl Beispiel"
+  },
+  "LocaleSwitcher": {
+    "label": "Change language",
+    "locale": "{locale, select, es {🇪🇸 Spanish} en {🇺🇸 English} other {Unknown}}"
+  },
+  "Navigation": {
+    "home": "Hogar",
+    "about": "Acerca de",
+    "services": "Servicios",
+    "contact": "Contacto"
+  }
+}
