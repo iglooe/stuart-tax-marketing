@@ -1,8 +1,6 @@
 "use client"
 
 import { ChangeEvent, ReactNode, useTransition } from "react"
-import next from "next"
-import { revalidatePath } from "next/cache"
 import { usePathname, useRouter } from "@/i18n/navigations"
 
 import { cn } from "@/lib/utils"
