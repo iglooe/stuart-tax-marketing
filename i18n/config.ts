@@ -8,6 +8,14 @@ export const pathnames = {
     en: "/about",
     es: "/acerda-de",
   },
+  "/services": {
+    en: "/services",
+    es: "/servicios",
+  },
+  "/contact": {
+    en: "/contact",
+    es: "/contacto",
+  },
 } satisfies Pathnames<typeof locales>
 
 // Use the default: `always`

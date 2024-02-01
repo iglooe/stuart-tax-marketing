@@ -18,6 +18,8 @@ export default function Navigation() {
       <div className="flex gap-6">
         <NavigationLink href="/">{t("home")}</NavigationLink>
         <NavigationLink href="/about">{t("about")}</NavigationLink>
+        <NavigationLink href="/services">{t("services")}</NavigationLink>
+        <NavigationLink href="/contact">{t("contact")}</NavigationLink>
       </div>
     </div>
   )
