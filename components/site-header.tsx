@@ -2,10 +2,10 @@
 
 import Link from "next/link"
 import { useTranslations } from "next-intl"
-import { useMediaQuery } from "usehooks-ts"
 
 import { siteConfig } from "@/config/site"
 import { cn } from "@/lib/utils"
+import { useMediaQuery } from "@/hooks/use-media-query"
 import { useScrollTop } from "@/hooks/use-scroll-top"
 
 import { Icons } from "./icons"
@@ -14,7 +14,7 @@ import { MobileNav } from "./mobile-nav"
 import NavigationLink from "./nav-link"
 
 export function SiteHeader() {
-  const isMobile = useMediaQuery("(max-width: 800px)")
+  const isMobile = useMediaQuery("(max-width: 870px)")
 
   const scrolled = useScrollTop()
 
