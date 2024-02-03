@@ -24,5 +24,14 @@
     "about": "About",
     "services": "Services",
     "contact": "Contact"
+  },
+  "AboutPage": {
+    "title": "About Page"
+  },
+  "ContactPage": {
+    "title": "Contact Page"
+  },
+  "ServicesPage": {
+    "title": "Services Page"
   }
 }

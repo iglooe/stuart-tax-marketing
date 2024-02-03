@@ -24,5 +24,14 @@
     "about": "Acerca de",
     "services": "Servicios",
     "contact": "Contacto"
+  },
+  "AboutPage": {
+    "title": "Acera de la página"
+  },
+  "ContactPage": {
+    "title": "Pagina de contacto"
+  },
+  "ServicesPage": {
+    "title": "Pagina de Servicios"
   }
 }
