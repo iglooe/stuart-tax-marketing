@@ -20,7 +20,7 @@ export const MobileNav = () => {
     <>
       <Drawer direction="right">
         <DrawerTrigger>
-          <div className="sticky top-0 z-50 flex h-14 w-full items-center border border-border/50 bg-transparent pl-4">
+          <div className="sticky top-0 z-50 flex h-14 w-full items-center border border-border/50 bg-gray-200 pl-4">
             <Button variant="ghost" size="icon">
               <HamburgerMenuIcon className="size-8" />
             </Button>

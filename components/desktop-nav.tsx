@@ -19,7 +19,7 @@ export const DesktopNav: React.FC = () => {
   return (
     <header
       className={cn(
-        "sticky top-0 z-40 flex h-16 w-full items-center bg-gray-100 px-4 dark:bg-[#090d1a] lg:px-6",
+        "sticky top-0 z-40 flex h-16 w-full items-center bg-gray-200 px-4 dark:bg-[#090d1a] lg:px-6",
         scrolled && "border-b shadow-sm"
       )}
     >
