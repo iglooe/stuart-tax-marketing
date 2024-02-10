@@ -10,7 +10,8 @@
   },
   "NotFoundPage": {
     "title": "Page not found",
-    "description": "Please double-check the browser address bar or use the navigation to go to a known page."
+    "description": "Please double-check the browser address bar or use the navigation to go to a known page.",
+    "action": "Go to home page"
   },
   "LocaleLayout": {
     "title": "Stuart Tax Group Inc."

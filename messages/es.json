@@ -9,11 +9,12 @@
     "description": "<p>Es ist leider ein Problem aufgetreten.</p><p>Du kannst versuchen <retry>diese Seite neu zu laden</retry>.</p>"
   },
   "NotFoundPage": {
-    "title": "Seite nicht gefunden",
-    "description": "Bitte überprüfe die Addressleiste deines Browsers oder verwende die Navigation um zu einer bekannten Seite zu wechseln."
+    "title": "Página no encontrada!",
+    "description": "La página que buscas no existe.",
+    "action": "Volver a la página de inicio"
   },
   "LocaleLayout": {
-    "title": "next-intl Beispiel"
+    "title": "Stuart Tax Group Inc. - Español"
   },
   "LocaleSwitcher": {
     "label": "Change language",
