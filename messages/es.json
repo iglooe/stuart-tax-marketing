@@ -5,8 +5,8 @@
     "cta": "Empezar"
   },
   "Error": {
-    "title": "Etwas ist schief gelaufen!",
-    "description": "<p>Lamentablemente hemos encontrado un error.</p><p>Puedes intentar<retry>recargar la página</retry>que estabas vistiando</p>"
+    "title": "Algo salió mal",
+    "description": "<p>Hemos encontrado un error.</p><p>Puedes intentar<retry>recargar la página</retry>que estabas vistiando</p>"
   },
   "NotFoundPage": {
     "title": "Página no encontrada!",
@@ -21,8 +21,8 @@
     "locale": "{locale, select, es {🇪🇸 Spanish} en {🇺🇸 English} other {Unknown}}"
   },
   "Navigation": {
-    "home": "Hogar",
-    "about": "Acerca de",
+    "home": "Inicio",
+    "about": "Quiénes somos",
     "services": "Servicios",
     "contact": "Contacto"
   },
