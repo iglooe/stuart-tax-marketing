@@ -23,6 +23,7 @@
     "class-variance-authority": "^0.4.0",
     "clsx": "^1.2.1",
     "cmdk": "^0.2.0",
+    "geist": "^1.2.2",
     "lodash.debounce": "^4.0.8",
     "lucide-react": "0.105.0-alpha.4",
     "next": "^13.4.8",

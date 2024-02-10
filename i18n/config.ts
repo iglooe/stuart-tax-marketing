@@ -6,7 +6,7 @@ export const pathnames = {
   "/": "/",
   "/about": {
     en: "/about",
-    es: "/acerda-de",
+    es: "/acerda-de-nosotros",
   },
   "/services": {
     en: "/services",
