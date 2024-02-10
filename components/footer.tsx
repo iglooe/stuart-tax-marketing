@@ -1,6 +1,6 @@
 import { siteConfig } from "@/config/site"
 import { fontSans } from "@/lib/fonts"
-import { cn } from "@/lib/utils"
+import { cn, toTitleCase } from "@/lib/utils"
 import { Shell } from "@/components/ui/shell"
 
 import { ThemeToggle } from "./theme-toggle"
@@ -20,7 +20,7 @@ export const Footer = () => {
           )}
         >
           <div className="flex-1 text-left text-sm leading-loose text-muted-foreground">
-            &copy;{currYear} {siteConfig.name} All rights reserved.
+            &copy;{currYear} {toTitleCase(siteConfig.name)} All rights reserved.
           </div>
           <div className="flex items-center space-x-1">
             <ThemeToggle />

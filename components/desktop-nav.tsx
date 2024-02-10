@@ -5,7 +5,7 @@ import Link from "next/link"
 import { useTranslations } from "next-intl"
 
 import { siteConfig } from "@/config/site"
-import { cn } from "@/lib/utils"
+import { cn, toTitleCase } from "@/lib/utils"
 import { useScrollTop } from "@/hooks/use-scroll-top"
 
 import { Icons } from "./icons"
@@ -27,7 +27,9 @@ export const DesktopNav: React.FC = () => {
         <div className="flex gap-6 md:gap-10">
           <Link href="/" className="flex items-center space-x-2">
             <Icons.logo className="size-6" />
-            <span className="inline-block font-bold">{siteConfig.name}</span>
+            <span className="inline-block font-bold">
+              {toTitleCase(siteConfig.name)}
+            </span>
           </Link>
           <div className="flex gap-6">
             <NavigationLink href="/">{t("home")}</NavigationLink>
