@@ -6,7 +6,7 @@
   },
   "Error": {
     "title": "Etwas ist schief gelaufen!",
-    "description": "<p>Es ist leider ein Problem aufgetreten.</p><p>Du kannst versuchen <retry>diese Seite neu zu laden</retry>.</p>"
+    "description": "<p>Lamentablemente hemos encontrado un error.</p><p>Puedes intentar<retry>recargar la página</retry>que estabas vistiando</p>"
   },
   "NotFoundPage": {
     "title": "Página no encontrada!",
