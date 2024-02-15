@@ -2,13 +2,11 @@
 
 import * as React from "react"
 import Link from "next/link"
-import { useSelectedLayoutSegment } from "next/navigation"
 import { HamburgerMenuIcon } from "@radix-ui/react-icons"
-import { NavigationMenuLink } from "@radix-ui/react-navigation-menu"
 import { useTranslations } from "next-intl"
 
 import { siteConfig } from "@/config/site"
-import { cn } from "@/lib/utils"
+import { cn, toTitleCase } from "@/lib/utils"
 import { useScrollTop } from "@/hooks/use-scroll-top"
 
 import { Icons } from "./icons"
@@ -28,8 +26,6 @@ export const MobileNav = () => {
   const t = useTranslations("Navigation")
 
   const scrolled = useScrollTop()
-
-  const segment = useSelectedLayoutSegment()
 
   return (
     <>
@@ -52,7 +48,7 @@ export const MobileNav = () => {
               <Link href="/" className="flex items-center space-x-2">
                 <Icons.logo className="size-6" />
                 <span className="inline-block font-bold">
-                  {siteConfig.name}
+                  {toTitleCase(siteConfig.name)}
                 </span>
               </Link>
               <Separator className="my-4" />
