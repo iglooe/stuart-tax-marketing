@@ -24,7 +24,17 @@
     "home": "Home",
     "about": "About",
     "services": "Services",
-    "contact": "Contact"
+    "contact": "Contact",
+    "resources": {
+      "title": "Resources",
+      "action": "View all resources",
+      "action-subtitle": "A complete list of documents to download, fill out, and submit",
+      "form-description": {
+        "I-9": "Employment Eligibility Verification",
+        "W-9": "Request for taxpayer identification number",
+        "W-4": "Employees withholding certificate"
+      }
+    }
   },
   "AboutPage": {
     "title": "About Page"
@@ -34,5 +44,8 @@
   },
   "ServicesPage": {
     "title": "Services Page"
+  },
+  "ResourcesPage": {
+    "title": "Resources Page"
   }
 }

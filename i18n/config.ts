@@ -16,6 +16,10 @@ export const pathnames = {
     en: "/contact",
     es: "/contacto",
   },
+  "/resources": {
+    en: "/resources",
+    es: "/recursos",
+  },
 } satisfies Pathnames<typeof locales>
 
 // Use the default: `always`

@@ -24,7 +24,17 @@
     "home": "Inicio",
     "about": "Quiénes somos",
     "services": "Servicios",
-    "contact": "Contacto"
+    "contact": "Contacto",
+    "resources": {
+      "title": "Recursos",
+      "action": "Ver todos",
+      "action-subtitle": "Descubra una lista completa de documentos para descargar, completar y enviar",
+      "form-description": {
+        "I-9": "Verificación de elegibilidad laboral",
+        "W-9": "Solicitud de número de identificación del contribuyente",
+        "W-4": "Certificado de retenciones del empleado"
+      }
+    }
   },
   "AboutPage": {
     "title": "Acera de la página"
@@ -34,5 +44,8 @@
   },
   "ServicesPage": {
     "title": "Pagina de Servicios"
+  },
+  "ResourcesPage": {
+    "title": "Pagina de Recursos"
   }
 }
