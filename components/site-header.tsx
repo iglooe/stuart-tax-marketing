@@ -6,7 +6,7 @@ import { DesktopNav } from "./desktop-nav"
 import { MobileNav } from "./mobile-nav"
 
 export function SiteHeader() {
-  const isMobile = useMediaQuery("(max-width: 870px)")
+  const isMobile = useMediaQuery("(max-width: 950px)")
 
   return <>{isMobile ? <MobileNav /> : <DesktopNav />}</>
 }

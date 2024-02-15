@@ -1,7 +1,7 @@
 export type SiteConfig = typeof siteConfig
 
 export const siteConfig = {
-  name: "stuart tax group inc.",
+  name: "stuart tax group",
   description:
     "neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.",
   mainNav: [
