@@ -21,8 +21,8 @@ export default function NavigationLink<Pathname extends AppPathnames>({
       className={cn(
         "inline-block transition-colors",
         isActive
-          ? "font-bold text-gray-900 dark:text-white"
-          : "text-gray-500 hover:text-gray-400 dark:text-gray-400 dark:hover:text-gray-600"
+          ? "text-gray-900 dark:text-white"
+          : "text-primary hover:text-primary/75 dark:text-primary dark:hover:text-primary/75"
       )}
       href={href}
       {...rest}

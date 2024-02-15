@@ -24,13 +24,13 @@ export default function HomePage({ params: { locale } }: Props) {
                 <h1 className="text-3xl font-bold tracking-tighter text-gray-800 dark:text-gray-200 sm:text-5xl xl:text-6xl/none">
                   {t("hero")}
                 </h1>
-                <p className="max-w-[600px] text-gray-500 dark:text-gray-400 md:text-xl">
+                <p className="max-w-[600px] text-muted-foreground dark:text-gray-400 md:text-xl">
                   {t("description")}
                 </p>
               </div>
               <div className="flex flex-col gap-2 min-[400px]:flex-row">
                 <Link
-                  className="inline-flex h-10 items-center justify-center rounded-md bg-companyDark px-8 text-sm font-medium text-white shadow transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-green-500"
+                  className="inline-flex h-10 items-center justify-center rounded-md bg-primary px-8 text-sm font-medium text-white shadow transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-green-500 dark:bg-primary dark:text-black"
                   href="/"
                 >
                   {t("cta")}
