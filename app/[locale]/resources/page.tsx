@@ -50,7 +50,7 @@ export default function Resources({ params: { locale } }: Props) {
   )
 }
 
-export const PDFLink = React.forwardRef<
+const PDFLink = React.forwardRef<
   React.ElementRef<"a">,
   React.ComponentPropsWithoutRef<"a">
 >(({ className, title, ...props }, ref) => {
