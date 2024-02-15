@@ -46,6 +46,9 @@
     "title": "Pagina de Servicios"
   },
   "ResourcesPage": {
-    "title": "Pagina de Recursos"
+    "content": {
+      "title": "Ver todos los recursos",
+      "action": "Abierta"
+    }
   }
 }
