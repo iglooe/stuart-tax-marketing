@@ -1,7 +1,11 @@
 import {
+  DownloadIcon,
+  FileIcon,
   FileSymlink,
   LucideProps,
   Moon,
+  Package2,
+  SearchIcon,
   SunMedium,
   Twitter,
   type Icon as LucideIcon,
@@ -14,6 +18,11 @@ export const Icons = {
   moon: Moon,
   file: FileSymlink,
   twitter: Twitter,
+  search: SearchIcon,
+  download: DownloadIcon,
+  fileIcon: FileIcon,
+  package: Package2,
+
   logo: (props: LucideProps) => (
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" {...props}>
       <path
