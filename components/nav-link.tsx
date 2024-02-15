@@ -19,7 +19,7 @@ export default function NavigationLink<Pathname extends AppPathnames>({
     <Link
       aria-current={isActive ? "page" : undefined}
       className={cn(
-        "inline-block px-2 py-3 transition-colors",
+        "inline-block transition-colors",
         isActive
           ? "font-bold text-gray-900 dark:text-white"
           : "text-gray-500 hover:text-gray-400 dark:text-gray-400 dark:hover:text-gray-600"
