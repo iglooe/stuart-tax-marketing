@@ -24,7 +24,6 @@
     "@radix-ui/react-slot": "^1.0.2",
     "class-variance-authority": "^0.4.0",
     "clsx": "^1.2.1",
-    "cmdk": "^0.2.0",
     "geist": "^1.2.2",
     "lodash.debounce": "^4.0.8",
     "lucide-react": "0.105.0-alpha.4",
@@ -36,7 +35,6 @@
     "sharp": "^0.31.3",
     "tailwind-merge": "^1.13.2",
     "tailwindcss-animate": "^1.0.6",
-    "usehooks-ts": "^2.11.0",
     "vaul": "^0.9.0"
   },
   "devDependencies": {
