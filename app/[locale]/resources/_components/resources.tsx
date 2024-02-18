@@ -1,5 +1,7 @@
 import { useTranslations } from "next-intl"
 
+import { BackdropBlur } from "@/components/ui/backdrop"
+
 import { PDFLink } from "./pdf-link"
 
 export function ResourcesHero() {
@@ -7,7 +9,7 @@ export function ResourcesHero() {
 
   return (
     <>
-      <section className="backdrop-blur-[2px]md:py-24 flex w-full flex-1 flex-col gap-4 rounded-lg border border-border/50 bg-background/50 p-4 md:gap-8 md:p-6">
+      <BackdropBlur className="backdrop-blur-[2px]md:py-24 flex w-full flex-1 flex-col gap-4 rounded-lg border border-border/50 bg-background/50 p-4 md:gap-8 md:p-6">
         <div className="flex items-center">
           <h1 className="scroll-m-20 pb-2 text-3xl font-semibold tracking-tight first:mt-0">
             {t("content.title")}
@@ -30,7 +32,7 @@ export function ResourcesHero() {
             title="W-4"
           />
         </div>
-      </section>
+      </BackdropBlur>
     </>
   )
 }

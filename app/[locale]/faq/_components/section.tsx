@@ -2,6 +2,7 @@
 
 import { useTranslations } from "next-intl"
 
+import { BackdropBlur } from "@/components/ui/backdrop"
 import { Shell } from "@/components/ui/shell"
 
 import { Questions } from "./questions"
@@ -23,9 +24,9 @@ export function FAQSection() {
               </div>
             </div>
           </div>
-          <section className="backdrop-blur-[2px]md:py-24 flex w-full flex-1 flex-col gap-4 rounded-lg border border-border/50 bg-background/50 md:gap-8 md:p-6">
+          <BackdropBlur className="backdrop-blur-[2px]md:py-24 flex w-full flex-1 flex-col gap-4 rounded-lg border border-border/50 bg-background/50 md:gap-8 md:p-6">
             <Questions />
-          </section>
+          </BackdropBlur>
         </div>
       </div>
     </Shell>
