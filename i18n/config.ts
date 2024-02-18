@@ -12,13 +12,13 @@ export const pathnames = {
     en: "/services",
     es: "/servicios",
   },
-  "/contact": {
-    en: "/contact",
-    es: "/contacto",
-  },
   "/resources": {
     en: "/resources",
     es: "/recursos",
+  },
+  "/faq": {
+    en: "/faq",
+    es: "/el-faq",
   },
 } satisfies Pathnames<typeof locales>
 

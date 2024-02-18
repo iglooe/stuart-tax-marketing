@@ -14,10 +14,10 @@ export function Hero() {
         <div className="grid gap-6 lg:grid-cols-[1fr_400px] lg:gap-12 xl:grid-cols-[1fr_600px]">
           <div className="flex flex-col justify-center space-y-4">
             <div className="test-wrap space-y-2">
-              <h1 className="text-3xl font-bold tracking-tighter text-gray-800 dark:text-gray-200 sm:text-5xl xl:text-6xl/none">
+              <h1 className="text-3xl font-bold tracking-tighter text-primary dark:text-primary sm:text-5xl xl:text-6xl/none">
                 {t("hero")}
               </h1>
-              <p className="max-w-[600px] text-muted-foreground dark:text-gray-400 md:text-xl">
+              <p className="max-w-[600px] text-muted-foreground dark:text-muted-foreground md:text-xl">
                 {t("description")}
               </p>
             </div>

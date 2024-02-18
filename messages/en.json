@@ -1,7 +1,7 @@
 {
   "IndexPage": {
     "hero": "Expert Accounting Services You Can Trust",
-    "description": "We provide professional tax preparation, bookkeeping, and financial consulting services tailored to your needs.",
+    "description": "Proudly serving the Austin community for over 24 years. We specialize in providing expert tax services to individuals and businesses, offering personalized solutions to meet your unique needs.",
     "cta": "Get Started"
   },
   "Error": {
@@ -24,7 +24,7 @@
     "home": "Home",
     "about": "About",
     "services": "Services",
-    "contact": "Contact",
+    "faq": "FAQ",
     "resources": {
       "title": "Resources",
       "action": "View all resources",
@@ -39,8 +39,49 @@
   "AboutPage": {
     "title": "About Page"
   },
-  "ContactPage": {
-    "title": "Contact Page"
+  "FAQPage": {
+    "title": "Frequently Asked Questions",
+    "subtitle": "Got a question? We've got answers. If you can't find what you're looking for, feel free to contact us",
+    "faq1": {
+      "question": "How can I prepare for my tax appointment?",
+      "answer": "To prepare for your tax appointment, gather all relevant tax documents such as W-2 forms, 1099 forms, receipts for deductible expenses, and any other income-related documents. It's also helpful to organize your financial records and make a list of any questions or concerns you may have for your tax preparer."
+    },
+    "faq2": {
+      "question": "What should I bring to my tax appointment for business tax preparation?",
+      "answer": "For business tax preparation, bring all relevant financial documents such as income statements, expense records, balance sheets, and any other documents related to your business finances. Additionally, provide information about any business deductions or credits you may be eligible for."
+    },
+    "faq3": {
+      "question": "How long does it typically take to complete my tax return?",
+      "answer": "The time it takes to complete your tax return depends on various factors, including the complexity of your tax situation and the availability of necessary documents. Generally, we strive to complete your tax return accurately and efficiently, aiming to minimize any delays."
+    },
+    "faq4": {
+      "question": "What payment methods do you accept for your services?",
+      "answer": "We accept various payment methods, including cash, check, and credit/debit cards. Additionally, we may offer online payment options for added convenience."
+    },
+    "faq5": {
+      "question": "Can you help me with tax planning for the upcoming year?",
+      "answer": " Yes, we offer tax planning services to help you minimize your tax liability and maximize your savings for the upcoming year. We can assess your financial situation and provide personalized tax planning strategies tailored to your goals."
+    },
+    "faq6": {
+      "question": "What should I do if I receive a notice from the IRS?",
+      "answer": "If you receive a notice from the IRS, it's essential to address it promptly and accurately. Contact our office, and we can assist you in understanding the notice and determining the appropriate course of action. We also offer IRS audit representation services if needed."
+    },
+    "faq7": {
+      "question": "How do I know if I qualify for certain tax deductions or credits?",
+      "answer": "Determining eligibility for tax deductions and credits depends on various factors, including your income, expenses, and specific circumstances. We can help assess your situation and identify applicable deductions and credits to help minimize your tax liability."
+    },
+    "faq8": {
+      "question": "What should I do if I have missed the tax filing deadline?",
+      "answer": "If you've missed the tax filing deadline, it's crucial to file your taxes as soon as possible to avoid penalties and interest charges. Contact our office, and we can assist you in filing your taxes and exploring options for mitigating any penalties or fees."
+    },
+    "faq9": {
+      "question": "Can I file my taxes electronically, or do I need to mail them?",
+      "answer": " In most cases, you can file your taxes electronically (e-file), which is faster, more convenient, and secure. Our tax office offers e-filing services to simplify the tax filing process for our clients."
+    },
+    "faq10": {
+      "question": "Do you offer tax services in Spanish?",
+      "answer": "Yes, we provide tax services in both English and Spanish to accommodate our diverse clientele. Our team is fluent in Spanish and can assist you with your tax needs effectively and professionally."
+    }
   },
   "ServicesPage": {
     "title": "Services Page"

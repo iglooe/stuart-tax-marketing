@@ -62,8 +62,8 @@ export const MobileNav = () => {
                 <NavigationLink className="px-2 py-3" href="/services">
                   {t("services")}
                 </NavigationLink>
-                <NavigationLink className="px-2 pt-3" href="/contact">
-                  {t("contact")}
+                <NavigationLink className="px-2 pt-3" href="/faq">
+                  {t("faq")}
                 </NavigationLink>
                 <Accordion type="single" collapsible className="px-2 pt-2">
                   <AccordionItem value="item-1">

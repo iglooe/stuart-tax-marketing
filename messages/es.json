@@ -24,7 +24,7 @@
     "home": "Inicio",
     "about": "Quiénes somos",
     "services": "Servicios",
-    "contact": "Contacto",
+    "faq": "El FAQ",
     "resources": {
       "title": "Recursos",
       "action": "Ver todos",
@@ -39,8 +39,49 @@
   "AboutPage": {
     "title": "Acera de la página"
   },
-  "ContactPage": {
-    "title": "Pagina de contacto"
+  "FAQPage": {
+    "title": "Pagina de Preguntas Frecuentes",
+    "subtitle": "¿Tiene alguna pregunta? Tenemos respuestas. Si no encuentra lo que busca, no dude en contactarnos.",
+    "faq1": {
+      "question": "¿Cómo puedo prepararme para mi cita de impuestos?",
+      "answer": "Para prepararse para su cita tributaria, reúna todos los documentos tributarios relevantes, como formularios W-2, formularios 1099, recibos de gastos deducibles y cualquier otro documento relacionado con los ingresos. También es útil organizar sus registros financieros y hacer una lista de cualquier pregunta o inquietud que pueda tener para su preparador de impuestos."
+    },
+    "faq2": {
+      "question": "¿Qué debo llevar a mi cita de impuestos para la preparación de impuestos comerciales?",
+      "answer": "Para la preparación de impuestos comerciales, traiga todos los documentos financieros relevantes, como declaraciones de ingresos, registros de gastos, balances y cualquier otro documento relacionado con las finanzas de su empresa. Además, proporcione información sobre cualquier deducción o crédito comercial para el que pueda ser elegible."
+    },
+    "faq3": {
+      "question": "¿Cuánto tiempo suele tardar en completar mi declaración de impuestos?",
+      "answer": "El tiempo que lleva completar su declaración de impuestos depende de varios factores, incluida la complejidad de su situación fiscal y la disponibilidad de los documentos necesarios. Generalmente, nos esforzamos por completar su declaración de impuestos de manera precisa y eficiente, con el objetivo de minimizar cualquier retraso."
+    },
+    "faq4": {
+      "question": "¿Qué métodos de pago aceptan por sus servicios?",
+      "answer": "Aceptamos varios métodos de pago, incluidos efectivo, cheque y tarjetas de crédito/débito. Además, podemos ofrecer opciones de pago en línea para mayor comodidad."
+    },
+    "faq5": {
+      "question": "¿Pueden ayudarme con la planificación fiscal para el próximo año?",
+      "answer": "Sí, ofrecemos servicios de planificación fiscal para ayudarle a minimizar su obligación tributaria y maximizar sus ahorros para el próximo año. Podemos evaluar su situación financiera y brindarle estrategias de planificación fiscal personalizadas adaptadas a sus objetivos."
+    },
+    "faq6": {
+      "question": "¿Qué debo hacer si recibo un aviso del IRS?",
+      "answer": "Si recibe un aviso del IRS, es esencial que lo atienda con prontitud y precisión. Comuníquese con nuestra oficina y podremos ayudarlo a comprender el aviso y determinar el curso de acción apropiado. También ofrecemos servicios de representación de auditoría del IRS si es necesario."
+    },
+    "faq7": {
+      "question": "¿Cómo sé si califico para ciertas deducciones o créditos fiscales?",
+      "answer": "La determinación de la elegibilidad para deducciones y créditos fiscales depende de varios factores, incluidos sus ingresos, gastos y circunstancias específicas. Podemos ayudarlo a evaluar su situación e identificar las deducciones y créditos aplicables para ayudar a minimizar su obligación tributaria."
+    },
+    "faq8": {
+      "question": "¿Qué debo hacer si no cumplí con la fecha límite para presentar la declaración de impuestos?",
+      "answer": "Si no cumplió con la fecha límite de presentación de impuestos, es fundamental que presente sus impuestos lo antes posible para evitar multas y cargos por intereses. Comuníquese con nuestra oficina y podremos ayudarlo a presentar sus impuestos y explorar opciones para mitigar cualquier multa o tarifa."
+    },
+    "faq9": {
+      "question": "¿Puedo presentar mis impuestos electrónicamente o necesito enviarlos por correo?",
+      "answer": "En la mayoría de los casos, puede presentar sus impuestos electrónicamente (e-file), lo cual es más rápido, conveniente y seguro. Nuestra oficina de impuestos ofrece servicios de presentación electrónica para simplificar el proceso de presentación de impuestos para nuestros clientes."
+    },
+    "faq10": {
+      "question": "¿Ofrecen servicios de impuestos en español?",
+      "answer": "Yes, we provide tax services in both English and Spanish to accommodate our diverse clientele. Our team is fluent in Spanish and can assist you with your tax needs effectively and professionally."
+    }
   },
   "ServicesPage": {
     "title": "Pagina de Servicios"

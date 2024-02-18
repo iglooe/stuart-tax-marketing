@@ -71,11 +71,11 @@ export const DesktopNav: React.FC = () => {
                   </Link>
                 </NavigationMenuItem>
                 <NavigationMenuItem>
-                  <Link href="/contact" legacyBehavior passHref>
+                  <Link href="/faq" legacyBehavior passHref>
                     <NavigationMenuLink
                       className={navigationMenuTriggerStyle()}
                     >
-                      {t("contact")}
+                      {t("faq")}
                     </NavigationMenuLink>
                   </Link>
                 </NavigationMenuItem>
