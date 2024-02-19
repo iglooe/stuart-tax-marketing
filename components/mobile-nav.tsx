@@ -116,7 +116,7 @@ export const MobileLink = React.forwardRef<
       target="_blank"
       rel="noopener noreferrer"
       className={cn(
-        "block select-none space-y-2 rounded-md px-2 py-4 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground",
+        "block select-none space-y-2 rounded-md px-2 py-4 leading-none text-primary no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground dark:text-primary",
         className
       )}
       {...props}
