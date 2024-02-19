@@ -1,6 +1,7 @@
 import "@/styles/globals.css"
 import { ReactNode } from "react"
 import { locales } from "@/i18n/config"
+import { Analytics } from "@vercel/analytics/react"
 import { GeistSans } from "geist/font/sans"
 import { NextIntlClientProvider, useMessages } from "next-intl"
 import { getTranslations, unstable_setRequestLocale } from "next-intl/server"
@@ -46,7 +47,10 @@ export default function LocaleLayout({ children, params: { locale } }: Props) {
               <NextIntlClientProvider locale={locale} messages={messages}>
                 <SiteHeader />
                 <div className="flex-1">
-                  <BGGrid>{children}</BGGrid>
+                  <BGGrid>
+                    {children}
+                    <Analytics />
+                  </BGGrid>
                 </div>
               </NextIntlClientProvider>
             </div>
