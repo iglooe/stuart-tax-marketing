@@ -6,9 +6,12 @@ import {
   Globe2,
   Languages,
   LucideProps,
+  MailOpen,
+  MapPin,
   Moon,
   Package2,
   PenBox,
+  PhoneIcon,
   SearchIcon,
   Shield,
   StickyNote,
@@ -34,6 +37,9 @@ export const Icons = {
   globe: Globe2,
   pen: PenBox,
   translate: Languages,
+  mailOpen: MailOpen,
+  pin: MapPin,
+  phone: PhoneIcon,
   logo: (props: LucideProps) => (
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" {...props}>
       <path

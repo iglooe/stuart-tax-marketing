@@ -1,7 +1,7 @@
 import Link from "next/link"
 import { useTranslations } from "next-intl"
 
-import { Card } from "@/components/ui/card"
+import { FeaturesCard } from "@/components/ui/features-card"
 import { Icons } from "@/components/icons"
 
 export function Cards() {
@@ -21,24 +21,42 @@ export function Cards() {
         </p>
       </div>
       <div className="mx-auto grid justify-center gap-4 sm:grid-cols-2 md:max-w-[64rem] md:grid-cols-3">
-        <Card title={t("card1.title")} description={t("card1.description")}>
+        <FeaturesCard
+          title={t("card1.title")}
+          description={t("card1.description")}
+        >
           <Icons.page className="size-12" />
-        </Card>
-        <Card title={t("card2.title")} description={t("card2.description")}>
+        </FeaturesCard>
+        <FeaturesCard
+          title={t("card2.title")}
+          description={t("card2.description")}
+        >
           <Icons.banknote className="size-12" />
-        </Card>
-        <Card title={t("card3.title")} description={t("card3.description")}>
+        </FeaturesCard>
+        <FeaturesCard
+          title={t("card3.title")}
+          description={t("card3.description")}
+        >
           <Icons.shield className="size-12" />
-        </Card>
-        <Card title={t("card4.title")} description={t("card4.description")}>
+        </FeaturesCard>
+        <FeaturesCard
+          title={t("card4.title")}
+          description={t("card4.description")}
+        >
           <Icons.globe className="size-12" />
-        </Card>
-        <Card title={t("card5.title")} description={t("card5.description")}>
+        </FeaturesCard>
+        <FeaturesCard
+          title={t("card5.title")}
+          description={t("card5.description")}
+        >
           <Icons.pen className="size-12" />
-        </Card>
-        <Card title={t("card6.title")} description={t("card6.description")}>
+        </FeaturesCard>
+        <FeaturesCard
+          title={t("card6.title")}
+          description={t("card6.description")}
+        >
           <Icons.translate className="size-12" />
-        </Card>
+        </FeaturesCard>
       </div>
       <div className="mx-auto text-center md:max-w-[58rem]">
         <p className="leading-normal text-muted-foreground sm:text-lg sm:leading-7">
