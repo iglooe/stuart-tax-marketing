@@ -9,7 +9,7 @@ type Props = {
 export function Card({ title, description, children }: Props) {
   return (
     <div className="relative overflow-hidden rounded-lg border bg-background p-2">
-      <div className="flex h-[180px] flex-col justify-between rounded-md p-6 sm:h-[220px] lg:h-[180px] ">
+      <div className="flex h-[180px] flex-col justify-between rounded-md p-6 sm:h-[220px]">
         {children}
         <div className="space-y-2">
           <h3 className="font-bold">{title}</h3>
