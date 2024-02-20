@@ -1,8 +1,36 @@
 {
   "IndexPage": {
-    "hero": "Expert Accounting Services You Can Trust",
-    "description": "Proudly serving the Austin community for over 24 years. We specialize in providing expert tax services to individuals and businesses, offering personalized solutions to meet your unique needs.",
-    "cta": "Get Started"
+    "hero": "Year Round Tax Service",
+    "description": "We specialize in providing expert tax services to individuals and businesses, offering personalized solutions to meet your unique needs.",
+    "cta": "Get Started",
+    "cards": {
+      "title": "Our Services",
+      "subtitle": "A list of all the services we offer to help you with your tax and accounting needs.",
+      "card1": {
+        "title": "Tax Solutions",
+        "description": "We offer affordable tax preparation services for individuals and businesses."
+      },
+      "card2": {
+        "title": "Payroll Services",
+        "description": "We handle payroll taxes, deductions, benefits and more."
+      },
+      "card3": {
+        "title": "Audit Defense",
+        "description": "We can help resolve any tax issues and protect your rights."
+      },
+      "card4": {
+        "title": "Immigration Help",
+        "description": "We help with VISA applications, green cards or citizenship."
+      },
+      "card5": {
+        "title": "Notary Services",
+        "description": "Convenient and secure notary services for your legal documents."
+      },
+      "card6": {
+        "title": "Translation Services",
+        "description": "We have a team of native spanish speakers to help with translations."
+      }
+    }
   },
   "Error": {
     "title": "Something went wrong!",

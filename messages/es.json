@@ -1,8 +1,36 @@
 {
   "IndexPage": {
-    "hero": "Servicios de contabilidad expertos en los que puede confiar",
-    "description": "Brindamos servicios profesionales de preparación de impuestos, teneduría de libros y consultoría financiera adaptados a sus necesidades.",
-    "cta": "Empezar"
+    "hero": "Servico de impuestos durante todo el año.",
+    "description": "Nos especializamos en brindar servicios tributarios expertos a individuos y empresas, ofreciendo soluciones personalizadas para satisfacer sus necesidades únicas.",
+    "cta": "Empezar",
+    "cards": {
+      "title": "Nuestros Servicios",
+      "subtitle": "Una lista de todos los servicios que ofrecemos para ayudarle con sus necesidades fiscales y contables.",
+      "card1": {
+        "title": "Soluciones Fiscales",
+        "description": "Ofrecemos servicios asequibles de preparación de impuestos para individuos y empresas."
+      },
+      "card2": {
+        "title": "Servicios de Nómina",
+        "description": "Manejamos impuestos sobre la nómina, deducciones, beneficios y más."
+      },
+      "card3": {
+        "title": "Defensa de Auditoría",
+        "description": "We can help resolve any tax issues and protect your rights."
+      },
+      "card4": {
+        "title": "Ayuda de Inmigración",
+        "description": "Podemos ayudarle a resolver cualquier problema fiscal y protegerle de la ley."
+      },
+      "card5": {
+        "title": "Servicios Notariales",
+        "description": "Servicios notariales convenientes y seguros para sus documentos legales."
+      },
+      "card6": {
+        "title": "Servicios de Traducción",
+        "description": "Contamos con un equipo de hablantes nativos de español para ayudar con las traducciones."
+      }
+    }
   },
   "Error": {
     "title": "Algo salió mal",

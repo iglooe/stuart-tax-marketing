@@ -1,7 +1,6 @@
 import Image from "next/image"
 import Link from "next/link"
 import { useTranslations } from "next-intl"
-import PlaceholderSVG from "public/placeholder.svg"
 
 import { BackdropBlur } from "@/components/ui/backdrop"
 
@@ -32,10 +31,17 @@ export function Hero() {
           </div>
           <div className="flex flex-col justify-center space-y-4">
             <Image
-              alt="Accounting"
-              className="mx-auto aspect-[3/2] overflow-hidden rounded-xl object-cover object-center sm:w-full lg:order-last"
+              alt="Hero Image"
+              className="mx-auto aspect-[3/2] overflow-hidden rounded-xl object-cover object-center dark:hidden sm:w-full lg:order-last"
               height="400"
-              src={PlaceholderSVG}
+              src="/hero.png"
+              width="600"
+            />
+            <Image
+              alt="Hero Image"
+              className="mx-auto hidden aspect-[3/2] overflow-hidden rounded-xl object-cover object-center dark:block sm:w-full lg:order-last"
+              height="400"
+              src="/hero-dark.png"
               width="600"
             />
           </div>

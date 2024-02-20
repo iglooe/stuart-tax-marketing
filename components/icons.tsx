@@ -1,11 +1,17 @@
 import {
+  Banknote,
   DownloadIcon,
   FileIcon,
   FileSymlink,
+  Globe2,
+  Languages,
   LucideProps,
   Moon,
   Package2,
+  PenBox,
   SearchIcon,
+  Shield,
+  StickyNote,
   SunMedium,
   Twitter,
   type Icon as LucideIcon,
@@ -22,7 +28,12 @@ export const Icons = {
   download: DownloadIcon,
   fileIcon: FileIcon,
   package: Package2,
-
+  page: StickyNote,
+  banknote: Banknote,
+  shield: Shield,
+  globe: Globe2,
+  pen: PenBox,
+  translate: Languages,
   logo: (props: LucideProps) => (
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" {...props}>
       <path
