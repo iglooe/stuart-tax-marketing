@@ -2,6 +2,8 @@
 
 import { GoogleMap, MarkerF, useJsApiLoader } from "@react-google-maps/api"
 
+import { Shell } from "@/components/ui/shell"
+
 export function GoogleMapsWidget() {
   const containerStyle = {
     height: "400px",
@@ -20,19 +22,21 @@ export function GoogleMapsWidget() {
   if (!isLoaded) return null
 
   return (
-    <div className="flex overflow-hidden rounded-md">
-      <GoogleMap
-        options={{
-          streetViewControl: false,
-          mapTypeControl: false,
-          fullscreenControl: false,
-        }}
-        mapContainerStyle={containerStyle}
-        center={mapCenter}
-        zoom={14}
-      >
-        <MarkerF position={mapCenter} />
-      </GoogleMap>
-    </div>
+    <Shell>
+      <div className="overflow-hidden rounded-md">
+        <GoogleMap
+          options={{
+            streetViewControl: false,
+            mapTypeControl: false,
+            fullscreenControl: false,
+          }}
+          mapContainerStyle={containerStyle}
+          center={mapCenter}
+          zoom={14}
+        >
+          <MarkerF position={mapCenter} />
+        </GoogleMap>
+      </div>
+    </Shell>
   )
 }
