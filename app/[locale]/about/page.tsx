@@ -12,7 +12,7 @@ export default function About({ params: { locale } }: LocaleProps) {
   unstable_setRequestLocale(locale)
 
   return (
-    <Shell variant="markdown" className="space-y-12">
+    <Shell variant="markdown">
       <AboutSection />
       <ContactUs />
       <GoogleMapsWidget />
