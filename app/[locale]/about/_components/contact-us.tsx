@@ -1,4 +1,5 @@
 import Image from "next/image"
+import Link from "next/link"
 import PlaceholderSVG from "@/public/placeholder.svg"
 import { useTranslations } from "next-intl"
 
@@ -42,7 +43,12 @@ export default function ContactUs() {
               <Icons.mailOpen className="size-4 shrink-0" />
               <span className="text-sm font-medium">Email</span>
               <span className="text-sm text-gray-500 dark:text-gray-400">
-                {siteConfig.contact.email}
+                <Link
+                  className="underline-offset-4 hover:underline"
+                  href="mailto:contact@stuarttaxgroup.com"
+                >
+                  {siteConfig.contact.email}
+                </Link>
               </span>
             </div>
             <div className="flex items-center space-x-2">
