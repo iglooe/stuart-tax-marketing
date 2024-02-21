@@ -13,7 +13,7 @@ export default function ContactUs() {
       <h2 className="scroll-m-20 border-b pb-2 text-3xl font-semibold tracking-tight first:mt-0">
         {t("contact")}
       </h2>
-      <Card className="mx-auto w-[380px]">
+      <Card className="mx-auto w-[350px] sm:w-[400px]">
         <CardContent className="p-0">
           <div className="flex items-center space-x-4 p-6">
             <Image
