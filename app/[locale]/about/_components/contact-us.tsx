@@ -1,15 +1,17 @@
 import Image from "next/image"
 import PlaceholderSVG from "@/public/placeholder.svg"
+import { useTranslations } from "next-intl"
 
 import { siteConfig } from "@/config/site"
 import { Card, CardContent } from "@/components/ui/card"
 import { Icons } from "@/components/icons"
 
 export default function ContactUs() {
+  const t = useTranslations("AboutPage")
   return (
     <>
       <h2 className="scroll-m-20 border-b pb-2 text-3xl font-semibold tracking-tight first:mt-0">
-        Contact Information
+        {t("contact")}
       </h2>
       <Card className="mx-auto w-[400px]">
         <CardContent className="p-0">

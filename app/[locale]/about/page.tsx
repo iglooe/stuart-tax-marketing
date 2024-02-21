@@ -4,6 +4,7 @@ import { Shell } from "@/components/ui/shell"
 
 import { AboutSection } from "./_components/about-section"
 import ContactUs from "./_components/contact-us"
+import { GoogleMapsWidget } from "./_components/google-map"
 
 type Props = {
   params: { locale: string }
@@ -17,6 +18,7 @@ export default function About({ params: { locale } }: Props) {
     <Shell variant="markdown" className="space-y-12">
       <AboutSection />
       <ContactUs />
+      <GoogleMapsWidget />
     </Shell>
   )
 }
