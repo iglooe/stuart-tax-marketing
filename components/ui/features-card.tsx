@@ -1,12 +1,12 @@
 import React from "react"
 
-type Props = {
-  children: React.ReactNode
-  title: string
-  description: string
-}
+import { FeaturesCardProps } from "@/types/types"
 
-export function FeaturesCard({ title, description, children }: Props) {
+export function FeaturesCard({
+  title,
+  description,
+  children,
+}: FeaturesCardProps) {
   return (
     <div className="relative overflow-hidden rounded-lg border bg-background p-2">
       <div className="flex h-[180px] flex-col justify-between rounded-md p-6 sm:h-[220px]">

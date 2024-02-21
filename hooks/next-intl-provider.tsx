@@ -1,15 +1,8 @@
 "use client"
 
-import { ReactNode } from "react"
-import { AbstractIntlMessages, NextIntlClientProvider } from "next-intl"
+import { NextIntlClientProvider } from "next-intl"
 
-type Props = {
-  messages: AbstractIntlMessages
-  locale: string
-  children: ReactNode
-  now: Date
-  timeZone: string
-}
+import { NextIntlProviderProps } from "@/types/types"
 
 export default function NextIntlProvider({
   messages,
@@ -17,7 +10,7 @@ export default function NextIntlProvider({
   children,
   now,
   timeZone,
-}: Props) {
+}: NextIntlProviderProps) {
   return (
     <NextIntlClientProvider
       locale={locale}

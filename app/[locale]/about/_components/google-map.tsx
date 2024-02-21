@@ -20,17 +20,19 @@ export function GoogleMapsWidget() {
   if (!isLoaded) return null
 
   return (
-    <GoogleMap
-      options={{
-        streetViewControl: false,
-        mapTypeControl: false,
-        fullscreenControl: false,
-      }}
-      mapContainerStyle={containerStyle}
-      center={mapCenter}
-      zoom={14}
-    >
-      <MarkerF position={mapCenter} />
-    </GoogleMap>
+    <div className="overflow-hidden rounded-md">
+      <GoogleMap
+        options={{
+          streetViewControl: false,
+          mapTypeControl: false,
+          fullscreenControl: false,
+        }}
+        mapContainerStyle={containerStyle}
+        center={mapCenter}
+        zoom={14}
+      >
+        <MarkerF position={mapCenter} />
+      </GoogleMap>
+    </div>
   )
 }

@@ -1,16 +1,13 @@
 import { unstable_setRequestLocale } from "next-intl/server"
 
+import { LocaleProps } from "@/types/types"
 import { Shell } from "@/components/ui/shell"
 
 import { AboutSection } from "./_components/about-section"
 import ContactUs from "./_components/contact-us"
 import { GoogleMapsWidget } from "./_components/google-map"
 
-type Props = {
-  params: { locale: string }
-}
-
-export default function About({ params: { locale } }: Props) {
+export default function About({ params: { locale } }: LocaleProps) {
   // Enable static rendering
   unstable_setRequestLocale(locale)
 

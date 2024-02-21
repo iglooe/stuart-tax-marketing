@@ -1,11 +1,9 @@
 import { useTranslations } from "next-intl"
 import { unstable_setRequestLocale } from "next-intl/server"
 
-type Props = {
-  params: { locale: string }
-}
+import { LocaleProps } from "@/types/types"
 
-export default function Services({ params: { locale } }: Props) {
+export default function Services({ params: { locale } }: LocaleProps) {
   // Enable static rendering
   unstable_setRequestLocale(locale)
 

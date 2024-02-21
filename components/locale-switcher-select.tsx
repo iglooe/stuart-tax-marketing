@@ -1,21 +1,16 @@
 "use client"
 
-import { ChangeEvent, ReactNode, useTransition } from "react"
+import { ChangeEvent, useTransition } from "react"
 import { usePathname, useRouter } from "@/i18n/navigations"
 
+import { LocaleSwitcherSelectProps } from "@/types/types"
 import { cn } from "@/lib/utils"
-
-type Props = {
-  children: ReactNode
-  defaultValue: string
-  label: string
-}
 
 export default function LocaleSwitcherSelect({
   children,
   defaultValue,
   label,
-}: Props) {
+}: LocaleSwitcherSelectProps) {
   const router = useRouter()
   const [isPending, startTransition] = useTransition()
   const pathname = usePathname()
