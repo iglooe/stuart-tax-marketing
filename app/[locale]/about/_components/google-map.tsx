@@ -4,8 +4,8 @@ import { GoogleMap, MarkerF, useJsApiLoader } from "@react-google-maps/api"
 
 export function GoogleMapsWidget() {
   const containerStyle = {
-    width: "100%",
     height: "400px",
+    width: "100%",
   }
 
   const mapCenter = {
@@ -20,7 +20,7 @@ export function GoogleMapsWidget() {
   if (!isLoaded) return null
 
   return (
-    <div className="overflow-hidden rounded-md">
+    <div className="flex overflow-hidden rounded-md">
       <GoogleMap
         options={{
           streetViewControl: false,
