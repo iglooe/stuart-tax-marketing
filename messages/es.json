@@ -115,7 +115,34 @@
     }
   },
   "ServicesPage": {
-    "title": "Pagina de Servicios"
+    "title": "Nuestro Servicios",
+    "subtitle": "Deje que nuestros expertos le ayuden a navegar por las complejidades del código tributario. Ofrecemos una gama de servicios para satisfacer sus necesidades.",
+    "services": {
+      "service1": {
+        "title": "Servicios de preparación de impuestos",
+        "description": "Desde presentaciones básicas 1040EZ hasta declaraciones complejas de trabajadores autónomos y corporativos, el equipo de pir garantiza una preparación de impuestos precisa y eficiente sin complicaciones."
+      },
+      "service2": {
+        "title": "Asesoría y Soporte Financiero",
+        "description": "Ya sea que esté buscando consultas por horas o una planificación fiscal comercial integral, navegue sin problemas por las complejidades de los impuestos estatales con nuestro equipo."
+      },
+      "service3": {
+        "title": "Servicios de Preparación de Formularios de Impuestos",
+        "description": "Ofrecemos preparativos para el Formulario 1096 para pequeñas empresas. Además, podemos ayudarlo con el formulario 1099, desde detalles y pagos del contratista, o situaciones que involucran informes de compensación de no empleados."
+      },
+      "service4": {
+        "title": "Asistencia Para La Solicitud de ITIN",
+        "description": "Lo guiaremos a través de los requisitos y lo ayudaremos a completar el formulario W-7. Brindamos soporte práctico, revisión de documentos y resolución de cualquier desafío potencial de la aplicación. ¡Permítanos ayudarle a simplificar este proceso!"
+      },
+      "service5": {
+        "title": "Planificación de Impuestos Sobre Sucesiones y Donaciones",
+        "description": "Estrategias fiscales personalizadas para una planificación eficiente de sucesiones y donaciones, garantizando la seguridad financiera de sus seres queridos. Abordamos sus necesidades y objetivos únicos, brindándole tranquilidad para el futuro."
+      },
+      "service6": {
+        "title": "Servicios Profesionales de Consultoría Fiscal",
+        "description": "Benefíciese de nuestro asesoramiento experto con una consulta exploratoria adaptada a usted. Reciba un plan de acción personalizado sin la carga de tarifas por horas. Considere nuestro paquete para una sesión exhaustiva y un plan de seguimiento con el precio correspondiente."
+      }
+    }
   },
   "ResourcesPage": {
     "content": {

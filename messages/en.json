@@ -115,7 +115,34 @@
     }
   },
   "ServicesPage": {
-    "title": "Services Page"
+    "title": "Our Services",
+    "subtitle": "Let our experts help you navigate the complexities of the tax code. We offer a range of services to meet your needs.",
+    "services": {
+      "service1": {
+        "title": "Tax Preparation Services",
+        "description": "From basic 1040EZ filings to complex self-employed and corporate returns, pir team ensures accurate and efficient tax preparation without the hassle."
+      },
+      "service2": {
+        "title": "Financial Consulting and Support",
+        "description": "Whether you're seeking hourly consultations or comprehensive business tax planning, navigate state tax complexities seamlessly with our team."
+      },
+      "service3": {
+        "title": "Tax Form Preparation Services",
+        "description": "We offer preparations for the 1096 Form for small businesses. Additionally we can assist with the 1099 Form, from contractor details and payments, or situations involving non-employee compensation reporting."
+      },
+      "service4": {
+        "title": "ITIN Application Assistance",
+        "description": "We will guide you through the requirements, and assist in completing the W-7 Form. We provide hands-on support, document review, and resolution of any potential application challenges. Let us help simplify this process for you!"
+      },
+      "service5": {
+        "title": "Estate and Gift Tax Planning",
+        "description": "Tailored tax strategies for efficient estate and gift planning, ensuring financial security for your loved ones. We address your unique needs and goals, providing peace of mind for the future."
+      },
+      "service6": {
+        "title": "Professional Tax Consulting Services",
+        "description": "Benefit from our expert advice with an exploratory consultation tailored to you. Receive a personalized plan of action without the burden of hourly rates. Consider our package deal for a thorough session and follow-up plan priced accordingly."
+      }
+    }
   },
   "ResourcesPage": {
     "content": {

@@ -2,6 +2,9 @@ import { useTranslations } from "next-intl"
 import { unstable_setRequestLocale } from "next-intl/server"
 
 import { LocaleProps } from "@/types/types"
+import { Shell } from "@/components/ui/shell"
+
+import { ServicesSection } from "./_components/services"
 
 export default function Services({ params: { locale } }: LocaleProps) {
   // Enable static rendering
@@ -9,5 +12,9 @@ export default function Services({ params: { locale } }: LocaleProps) {
 
   const t = useTranslations("ServicesPage")
 
-  return <div>{t("title")}</div>
+  return (
+    <Shell>
+      <ServicesSection />
+    </Shell>
+  )
 }
