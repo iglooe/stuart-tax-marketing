@@ -148,6 +148,7 @@
   "ResourcesPage": {
     "content": {
       "title": "Ver todos los recursos",
+      "subtitle": "Nuestra lista completa de documentos para descargar, completar y enviar",
       "action": "Abierta"
     }
   }

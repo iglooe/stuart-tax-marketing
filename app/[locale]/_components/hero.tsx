@@ -12,7 +12,7 @@ export function Hero() {
       <div className="container px-4 md:px-6">
         <div className="grid gap-6 lg:grid-cols-[1fr_400px] lg:gap-12 xl:grid-cols-[1fr_600px]">
           <div className="flex flex-col justify-center space-y-4">
-            <div className="test-wrap space-y-2">
+            <div className="space-y-2 text-wrap">
               <h1 className="text-3xl font-bold tracking-tighter text-primary dark:text-primary sm:text-5xl xl:text-6xl/none">
                 {t("hero")}
               </h1>

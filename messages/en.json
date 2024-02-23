@@ -148,6 +148,7 @@
   "ResourcesPage": {
     "content": {
       "title": "View all resources",
+      "subtitle": "Our complete list of documents to download, fill out, and submit",
       "action": "View"
     }
   }
