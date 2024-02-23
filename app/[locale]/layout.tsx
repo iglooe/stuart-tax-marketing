@@ -1,4 +1,5 @@
 import "@/styles/globals.css"
+import { Metadata } from "next"
 import { locales } from "@/i18n/config"
 import { Analytics } from "@vercel/analytics/react"
 import { GeistSans } from "geist/font/sans"
@@ -6,6 +7,7 @@ import { NextIntlClientProvider, useMessages } from "next-intl"
 import { getTranslations, unstable_setRequestLocale } from "next-intl/server"
 
 import { MainLayoutProps } from "@/types/types"
+import { siteConfig } from "@/config/site"
 import { BGGrid } from "@/components/bg-grid"
 import { Footer } from "@/components/footer"
 import { SiteHeader } from "@/components/site-header"
@@ -16,14 +18,30 @@ export function generateStaticParams() {
   return locales.map((locale) => ({ locale }))
 }
 
-export async function generateMetadata({
-  params: { locale },
-}: Omit<MainLayoutProps, "children">) {
-  const t = await getTranslations({ locale, namespace: "LocaleLayout" })
+// export async function generateMetadata({
+//   params: { locale },
+// }: Omit<MainLayoutProps, "children">) {
+//   const t = await getTranslations({ locale, namespace: "LocaleLayout" })
 
-  return {
-    title: t("title"),
-  }
+//   return {
+//     title: t("title"),
+//   }
+// }
+export const metadata: Metadata = {
+  title: {
+    default: siteConfig.name,
+    template: `%s - ${siteConfig.name}`,
+  },
+  description: siteConfig.description,
+  themeColor: [
+    { media: "(prefers-color-scheme: light)", color: "white" },
+    { media: "(prefers-color-scheme: dark)", color: "black" },
+  ],
+  icons: {
+    icon: "/favicon.ico",
+    shortcut: "/favicon-16x16.png",
+    apple: "/apple-touch-icon.png",
+  },
 }
 
 export default function LocaleLayout({
