@@ -1,4 +1,3 @@
-import { useTranslations } from "next-intl"
 import { unstable_setRequestLocale } from "next-intl/server"
 
 import { LocaleProps } from "@/types/types"
@@ -9,8 +8,6 @@ import { ServicesSection } from "./_components/services"
 export default function Services({ params: { locale } }: LocaleProps) {
   // Enable static rendering
   unstable_setRequestLocale(locale)
-
-  const t = useTranslations("ServicesPage")
 
   return (
     <Shell>

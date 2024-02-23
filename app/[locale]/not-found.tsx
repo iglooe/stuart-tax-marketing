@@ -2,10 +2,6 @@ import Link from "next/link"
 import { useTranslations } from "next-intl"
 
 import { Button } from "@/components/ui/button"
-import { Shell } from "@/components/ui/shell"
-
-// Note that `app/[locale]/[...rest]/page.tsx`
-// is necessary for this page to render.
 
 export default function NotFoundPage() {
   const t = useTranslations("NotFoundPage")

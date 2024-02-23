@@ -1,94 +1,73 @@
 import { useTranslations } from "next-intl"
 
 import { toSentenceCase, toTitleCase } from "@/lib/utils"
+import { Icons } from "@/components/icons"
 
 export function ServicesSection() {
   const t = useTranslations("ServicesPage")
 
+  const features = [
+    {
+      name: t("services.service1.title"),
+      description: t("services.service1.description"),
+      icon: <Icons.penLine className="dark:text-primary" />,
+    },
+    {
+      name: t("services.service2.title"),
+      description: t("services.service2.description"),
+      icon: <Icons.helpBadge className="dark:text-primary" />,
+    },
+    {
+      name: t("services.service3.title"),
+      description: t("services.service3.description"),
+      icon: <Icons.penLine className="dark:text-primary" />,
+    },
+    {
+      name: t("services.service4.title"),
+      description: t("services.service4.description"),
+      icon: <Icons.building className="dark:text-primary" />,
+    },
+    {
+      name: t("services.service5.title"),
+      description: t("services.service5.description"),
+      icon: <Icons.house className="dark:text-primary" />,
+    },
+    {
+      name: t("services.service6.title"),
+      description: t("services.service6.description"),
+      icon: <Icons.handshake className="dark:text-primary" />,
+    },
+  ]
+
   return (
-    <div className="flex min-h-[100dvh] flex-col">
-      <main className="flex-1">
-        <section className="w-full py-12 md:py-1">
-          <div className="container px-4 md:px-6">
-            <div className="flex flex-col items-center justify-center space-y-4 text-center">
-              <div className="space-y-2">
-                <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl">
-                  {toTitleCase(t("title"))}
-                </h1>
-                <p className="max-w-[600px] text-gray-500 dark:text-gray-400 md:text-xl/relaxed">
-                  {toSentenceCase(t("subtitle"))}
-                </p>
+    <div className="bg-transparent py-12 sm:py-16">
+      <div className="mx-auto max-w-7xl px-6 lg:px-8">
+        <div className="mx-auto max-w-2xl lg:text-center">
+          <p className="mt-2 text-3xl font-bold tracking-tight text-companyLight sm:text-5xl">
+            {toTitleCase(t("title"))}
+          </p>
+          <p className="mt-6 text-lg leading-8 text-muted-foreground/75">
+            {toSentenceCase(t("subtitle"))}
+          </p>
+        </div>
+        <div className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-4xl">
+          <dl className="grid max-w-xl grid-cols-1 gap-x-8 gap-y-10 lg:max-w-none lg:grid-cols-2 lg:gap-y-16">
+            {features.map((feature) => (
+              <div key={feature.name} className="relative pl-16">
+                <dt className="text-base font-semibold leading-7 text-primary">
+                  <div className="absolute left-0 top-0 flex size-10 items-center justify-center rounded-lg bg-secondary">
+                    {feature.icon}
+                  </div>
+                  <div className="text-xl sm:text-2xl">{feature.name}</div>
+                </dt>
+                <dd className="mt-2 text-base leading-7 text-muted-foreground">
+                  {feature.description}
+                </dd>
               </div>
-            </div>
-            <div className="mx-auto grid max-w-5xl items-start gap-6 py-6 lg:grid-cols-2 lg:gap-12 lg:py-12">
-              <div className="flex flex-col justify-center space-y-4">
-                <div className="space-y-2">
-                  <h2 className="text-2xl font-bold tracking-tighter sm:text-3xl">
-                    {t("services.service1.title")}
-                  </h2>
-                  <p className="text-gray-500 dark:text-gray-400 md:text-xl/relaxed">
-                    {t("services.service1.description")}
-                  </p>
-                </div>
-              </div>
-              <div className="flex flex-col justify-center space-y-4">
-                <div className="space-y-2">
-                  <h2 className="text-2xl font-bold tracking-tighter sm:text-3xl">
-                    {t("services.service2.title")}
-                  </h2>
-                  <p className="text-gray-500 dark:text-gray-400 md:text-xl/relaxed">
-                    {t("services.service2.description")}
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div className="mx-auto grid max-w-5xl items-start gap-6 pb-6 lg:grid-cols-2 lg:gap-12 lg:pb-12">
-              <div className="flex flex-col justify-center space-y-4">
-                <div className="space-y-2">
-                  <h2 className="text-2xl font-bold tracking-tighter sm:text-3xl">
-                    {t("services.service3.title")}
-                  </h2>
-                  <p className="text-gray-500 dark:text-gray-400 md:text-xl/relaxed">
-                    {t("services.service3.description")}
-                  </p>
-                </div>
-              </div>
-              <div className="flex flex-col justify-center space-y-4">
-                <div className="space-y-2">
-                  <h2 className="text-2xl font-bold tracking-tighter sm:text-3xl">
-                    {t("services.service4.title")}
-                  </h2>
-                  <p className="text-gray-500 dark:text-gray-400 md:text-xl/relaxed">
-                    {t("services.service4.description")}
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div className="mx-auto grid max-w-5xl items-start gap-6 lg:grid-cols-2 lg:gap-12">
-              <div className="flex flex-col justify-center space-y-4">
-                <div className="space-y-2">
-                  <h2 className="text-2xl font-bold tracking-tighter sm:text-3xl">
-                    {t("services.service5.title")}
-                  </h2>
-                  <p className="text-gray-500 dark:text-gray-400 md:text-xl/relaxed">
-                    {t("services.service5.description")}
-                  </p>
-                </div>
-              </div>
-              <div className="flex flex-col justify-center space-y-4">
-                <div className="space-y-2">
-                  <h2 className="text-2xl font-bold tracking-tighter sm:text-3xl">
-                    {t("services.service6.title")}
-                  </h2>
-                  <p className="text-gray-500 dark:text-gray-400 md:text-xl/relaxed">
-                    {t("services.service6.description")}
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-      </main>
+            ))}
+          </dl>
+        </div>
+      </div>
     </div>
   )
 }

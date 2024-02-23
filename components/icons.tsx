@@ -1,9 +1,13 @@
 import {
   Banknote,
+  Building2,
   DownloadIcon,
   FileIcon,
   FileSymlink,
   Globe2,
+  HeartHandshake,
+  HelpCircle,
+  Home,
   Languages,
   LucideProps,
   MailOpen,
@@ -11,6 +15,7 @@ import {
   Moon,
   Package2,
   PenBox,
+  PenLine,
   PhoneIcon,
   SearchIcon,
   Shield,
@@ -40,6 +45,11 @@ export const Icons = {
   mailOpen: MailOpen,
   pin: MapPin,
   phone: PhoneIcon,
+  penLine: PenLine,
+  helpBadge: HelpCircle,
+  building: Building2,
+  house: Home,
+  handshake: HeartHandshake,
   logo: (props: LucideProps) => (
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" {...props}>
       <path
