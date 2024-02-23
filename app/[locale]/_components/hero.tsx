@@ -3,6 +3,7 @@ import Link from "next/link"
 import { useTranslations } from "next-intl"
 
 import { BackdropBlur } from "@/components/ui/backdrop"
+import { Button } from "@/components/ui/button"
 
 export function Hero() {
   const t = useTranslations("IndexPage")
@@ -21,11 +22,18 @@ export function Hero() {
               </p>
             </div>
             <div className="flex flex-col gap-2 min-[400px]:flex-row">
-              <Link
-                className="inline-flex h-10 items-center justify-center rounded-md bg-primary px-8 text-sm font-medium text-white shadow transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-green-500 dark:bg-primary dark:text-black"
-                href="/"
-              >
-                {t("cta")}
+              <Link href="/about">
+                <Button size="lg">
+                  {t("cta")}
+                  <span className="ml-2" aria-hidden="true">
+                    →
+                  </span>
+                </Button>
+              </Link>
+              <Link href="/services">
+                <Button variant="link" size="lg">
+                  {t("cta2")}
+                </Button>
               </Link>
             </div>
           </div>

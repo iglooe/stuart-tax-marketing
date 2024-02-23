@@ -2,7 +2,8 @@
   "IndexPage": {
     "hero": "Year Round Tax Service",
     "description": "We specialize in providing expert tax services to individuals and businesses, offering personalized solutions to meet your unique needs.",
-    "cta": "Get Started",
+    "cta": "Contact Us",
+    "cta2": "View Services",
     "cards": {
       "title": "Our Services",
       "subtitle": "A list of all the services we offer to help you with your tax and accounting needs.",

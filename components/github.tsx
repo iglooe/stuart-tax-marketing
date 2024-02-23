@@ -16,8 +16,8 @@ export function Github() {
         target="_blank"
         rel="noopener noreferrer"
       >
-        <Icons.gitHub className="hidden size-5 dark:block" />
-        <span className="sr-only">Toggle theme</span>
+        <Icons.gitHub className="size-5" />
+        <span className="sr-only">Link to github repository</span>
       </Link>
     </Button>
   )

@@ -2,7 +2,8 @@
   "IndexPage": {
     "hero": "Servico de impuestos durante todo el año.",
     "description": "Nos especializamos en brindar servicios tributarios expertos a individuos y empresas, ofreciendo soluciones personalizadas para satisfacer sus necesidades únicas.",
-    "cta": "Empezar",
+    "cta": "Contacta Con Nosotras",
+    "cta2": "Ver Servicios",
     "cards": {
       "title": "Nuestros Servicios",
       "subtitle": "Una lista de todos los servicios que ofrecemos para ayudarle con sus necesidades fiscales y contables.",
