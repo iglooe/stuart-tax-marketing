@@ -38,8 +38,9 @@
   },
   "NotFoundPage": {
     "title": "Página no encontrada!",
-    "description": "La página que buscas no existe.",
-    "action": "Volver a la página de inicio"
+    "description": "Lo sentimos, no pudimos encontrar la página que estás buscando.",
+    "action": "Volver a la página de inicio",
+    "secondary-action": "Contacto de soporte"
   },
   "LocaleLayout": {
     "title": "Stuart Tax Group Inc. - Español"
