@@ -55,14 +55,14 @@ export function Questions() {
 
   return (
     <>
-      {faqs.map((faq, index) => (
-        <Accordion key={index} type="single" collapsible>
-          <AccordionItem value="question-1">
+      <Accordion type="multiple">
+        {faqs.map((faq, index) => (
+          <AccordionItem key={index} value={faq.question}>
             <AccordionTrigger>{faq.question}</AccordionTrigger>
             <AccordionContent>{faq.answer}</AccordionContent>
           </AccordionItem>
-        </Accordion>
-      ))}
+        ))}
+      </Accordion>
     </>
   )
 }

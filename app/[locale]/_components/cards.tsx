@@ -72,18 +72,6 @@ export function Cards() {
           )
         })}
       </div>
-      <div className="mx-auto text-center md:max-w-[58rem]">
-        <p className="leading-normal text-muted-foreground sm:text-lg sm:leading-7">
-          This list isn&apos;t complete, feel free to{" "}
-          <Link
-            href="/about"
-            className="font-medium underline underline-offset-4"
-          >
-            Contact us
-          </Link>
-          , if you have any questions.
-        </p>
-      </div>
     </section>
   )
 }
