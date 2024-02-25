@@ -46,7 +46,7 @@ export const MobileNav = () => {
           <DrawerContent>
             <div className="bg-background pl-4 pt-4">
               <Link href="/" className="flex items-center space-x-2">
-                <Icons.logo className="size-6" />
+                <Icons.book className="size-6" />
                 <span className="inline-block font-bold">
                   {toTitleCase(siteConfig.name)}
                 </span>

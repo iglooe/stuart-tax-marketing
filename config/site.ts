@@ -3,9 +3,9 @@ import { toSentenceCase, toTitleCase } from "@/lib/utils"
 export type SiteConfig = typeof siteConfig
 
 export const siteConfig = {
-  name: toTitleCase("stuart tax group"),
+  name: toTitleCase("stuart tax group inc."),
   description: toSentenceCase(
-    "The homepage of Stuart Tax Group, located in Austin, TX"
+    "The official website for Stuart Tax Group Inc. Offering tax services for individuals and businesses. Located in Austin Texas we specialize in bilingual assistance."
   ),
   employees: {
     name: "Jane Cooper",
