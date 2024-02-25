@@ -70,7 +70,18 @@
     "title": "A Little About Us",
     "subtitle": "Austin, TX",
     "description": "Welcome to Stuart Tax Group Inc, proudly serving the Austin community for over 24 years. We specialize in providing expert tax services to individuals and businesses, offering personalized solutions to meet your unique needs.",
-    "contact": "Contact Information"
+    "contact": "Contact Information",
+    "contactCard": {
+      "header1": "Our Information",
+      "header2": "Email Us Directly",
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "email": "Email",
+      "emailPlaceholder": "Contact email address",
+      "message": "Message",
+      "messagePlaceholder": "Enter your message",
+      "action": "Send Message"
+    }
   },
   "FAQPage": {
     "title": "Frequently Asked Questions",

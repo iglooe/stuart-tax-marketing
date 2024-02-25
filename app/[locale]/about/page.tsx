@@ -14,8 +14,8 @@ export default function About({ params: { locale } }: LocaleProps) {
   return (
     <Shell variant="markdown">
       <AboutSection />
-      <ContactUs />
       <GoogleMapsWidget />
+      <ContactUs />
     </Shell>
   )
 }

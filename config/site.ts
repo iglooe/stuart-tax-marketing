@@ -16,6 +16,7 @@ export const siteConfig = {
     phone: "+1-512-445-3379",
     cell: "+1-512-293-7130",
     email: "contact@stuarttaxgroup.com",
+    test: "dereknohomo@gmail.com",
   },
   githubRepo: "https://github.com/iglooe/stuart-tax-marketing",
 }
