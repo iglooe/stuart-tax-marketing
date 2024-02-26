@@ -2,6 +2,7 @@ import Image from "next/image"
 import PlaceholderSVG from "@/public/placeholder.svg"
 import { useTranslations } from "next-intl"
 
+import { fontHeading } from "@/lib/fonts"
 import { BackdropBlur } from "@/components/ui/backdrop"
 import { Shell } from "@/components/ui/shell"
 
@@ -26,7 +27,9 @@ export function AboutSection() {
                 width="160"
               />
               <div className="space-y-2">
-                <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
+                <h1
+                  className={`${fontHeading.className} text-3xl font-bold sm:text-4xl md:text-5xl`}
+                >
                   {t("title")}
                 </h1>
                 <p className="text-gray-500 dark:text-gray-400">

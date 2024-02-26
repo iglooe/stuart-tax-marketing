@@ -1,5 +1,6 @@
 import { useTranslations } from "next-intl"
 
+import { fontHeading } from "@/lib/fonts"
 import { toSentenceCase, toTitleCase } from "@/lib/utils"
 import { Icons } from "@/components/icons"
 
@@ -43,9 +44,11 @@ export function ServicesSection() {
     <div className="bg-transparent py-12 sm:py-16">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl lg:text-center">
-          <p className="mt-2 text-3xl font-bold tracking-tight text-companyLight sm:text-5xl">
+          <h1
+            className={`${fontHeading.className} mt-2 text-3xl font-bold text-companyLight sm:text-5xl`}
+          >
             {toTitleCase(t("title"))}
-          </p>
+          </h1>
           <p className="mt-6 text-lg leading-8 text-muted-foreground/75">
             {toSentenceCase(t("subtitle"))}
           </p>
@@ -58,7 +61,11 @@ export function ServicesSection() {
                   <div className="absolute left-0 top-0 flex size-10 items-center justify-center rounded-lg bg-secondary">
                     {feature.icon}
                   </div>
-                  <div className="text-xl sm:text-2xl">{feature.name}</div>
+                  <div
+                    className={`${fontHeading.className} text-xl sm:text-2xl`}
+                  >
+                    {feature.name}
+                  </div>
                 </dt>
                 <dd className="mt-2 text-base leading-7 text-muted-foreground">
                   {feature.description}

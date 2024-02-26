@@ -1,5 +1,6 @@
 import { useTranslations } from "next-intl"
 
+import { fontHeading } from "@/lib/fonts"
 import { BackdropBlur } from "@/components/ui/backdrop"
 import { Icons } from "@/components/icons"
 
@@ -25,7 +26,9 @@ export function ResourcesHero() {
     <>
       <BackdropBlur className="backdrop-blur-[2px]md:py-24 flex w-full flex-1 flex-col gap-4 rounded-lg border border-border/50 bg-background/50 p-4 md:gap-8 md:p-6">
         <div className="flex flex-col justify-center space-y-2">
-          <h1 className="scroll-m-20 pb-2 text-3xl font-semibold tracking-tight first:mt-0">
+          <h1
+            className={`${fontHeading.className} scroll-m-20 pb-2 text-3xl font-semibold first:mt-0`}
+          >
             {t("content.title")}
           </h1>
           <p className="mt-6 text-lg leading-8 text-muted-foreground/75">

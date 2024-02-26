@@ -59,17 +59,15 @@ export default function LocaleLayout({
         <head />
         <body className="min-h-screen bg-background font-sans antialiased">
           <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
-            <div className="relative flex min-h-screen flex-col">
-              <NextIntlClientProvider locale={locale} messages={messages}>
-                <SiteHeader />
-                <div className="flex-1">
-                  <BGGrid>
-                    {children}
-                    <Analytics />
-                  </BGGrid>
-                </div>
-              </NextIntlClientProvider>
-            </div>
+            <NextIntlClientProvider locale={locale} messages={messages}>
+              <SiteHeader />
+              <div className="flex-1">
+                <BGGrid>
+                  {children}
+                  <Analytics />
+                </BGGrid>
+              </div>
+            </NextIntlClientProvider>
             <Footer />
             <TailwindIndicator />
           </ThemeProvider>

@@ -1,6 +1,6 @@
-import Link from "next/link"
 import { useTranslations } from "next-intl"
 
+import { fontHeading } from "@/lib/fonts"
 import { Icons } from "@/components/icons"
 
 export function Cards() {
@@ -45,7 +45,9 @@ export function Cards() {
       className="container space-y-6 bg-transparent py-8 dark:bg-transparent md:py-10"
     >
       <div className="mx-auto flex max-w-[58rem] flex-col items-center space-y-4 text-center">
-        <h2 className="text-3xl font-extrabold leading-[1.1] sm:text-3xl md:text-4xl">
+        <h2
+          className={`${fontHeading.className} text-3xl font-extrabold leading-[1.1] sm:text-3xl md:text-4xl`}
+        >
           {t("title")}
         </h2>
         <p className="max-w-[85%] leading-normal text-muted-foreground sm:text-lg sm:leading-7">

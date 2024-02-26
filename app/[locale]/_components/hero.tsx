@@ -2,6 +2,7 @@ import Image from "next/image"
 import Link from "next/link"
 import { useTranslations } from "next-intl"
 
+import { fontHeading } from "@/lib/fonts"
 import { BackdropBlur } from "@/components/ui/backdrop"
 import { Button } from "@/components/ui/button"
 
@@ -14,7 +15,9 @@ export function Hero() {
         <div className="grid gap-6 lg:grid-cols-[1fr_400px] lg:gap-12 xl:grid-cols-[1fr_600px]">
           <div className="flex flex-col justify-center space-y-4">
             <div className="space-y-2 text-wrap">
-              <h1 className="text-3xl font-bold tracking-tighter text-primary dark:text-primary sm:text-5xl xl:text-6xl/none">
+              <h1
+                className={`${fontHeading.className} text-3xl font-bold tracking-tight text-primary dark:text-primary sm:text-5xl xl:text-6xl/none`}
+              >
                 {t("hero")}
               </h1>
               <p className="max-w-[600px] text-muted-foreground dark:text-muted-foreground md:text-xl">
