@@ -21,7 +21,7 @@ export const Footer = () => {
           )}
         >
           <div className="flex-1 text-left text-sm leading-loose text-muted-foreground">
-            &copy;{currYear} {toTitleCase(siteConfig.name)}. All rights
+            &copy;{currYear} {toTitleCase(siteConfig.name)} All rights
             reserved.
           </div>
           <div className="flex items-center space-x-1">

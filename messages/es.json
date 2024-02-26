@@ -1,47 +1,102 @@
 {
-  "IndexPage": {
-    "hero": "Servico de impuestos durante todo el año.",
-    "description": "Nos especializamos en brindar servicios tributarios expertos a individuos y empresas, ofreciendo soluciones personalizadas para satisfacer sus necesidades únicas.",
-    "cta": "Contacta Con Nosotras",
-    "cta2": "Ver Servicios",
-    "cards": {
-      "title": "Nuestros Servicios",
-      "subtitle": "Una lista de todos los servicios que ofrecemos para ayudarle con sus necesidades fiscales y contables.",
-      "card1": {
-        "title": "Soluciones Fiscales",
-        "description": "Ofrecemos servicios asequibles de preparación de impuestos para todos."
-      },
-      "card2": {
-        "title": "Servicios de Nómina",
-        "description": "Manejamos impuestos sobre la nómina, deducciones, beneficios y más."
-      },
-      "card3": {
-        "title": "Defensa de Auditoría",
-        "description": "We can help resolve any tax issues and protect your rights."
-      },
-      "card4": {
-        "title": "Ayuda de Inmigración",
-        "description": "Podemos ayudarle a resolver cualquier problema fiscal y protegerle de la ley."
-      },
-      "card5": {
-        "title": "Servicios Notariales",
-        "description": "Servicios notariales convenientes y seguros para sus documentos legales."
-      },
-      "card6": {
-        "title": "Servicios de Traducción",
-        "description": "Contamos con un equipo de hablantes nativos de español para ayudar con las traducciones."
-      }
-    }
+  "AboutPage": {
+    "contact": "Contactenos",
+    "contactCard": {
+      "action": "Enviar Mensaje",
+      "email": "Correo Electrónico",
+      "emailPlaceholder": "Ingrese su correo electrónico",
+      "firstName": "Primer Nombre",
+      "header1": "Nuestra Información de Contacto",
+      "header2": "Contactar por Correo Electrónico",
+      "lastName": "Apellido",
+      "message": "Mensaje",
+      "messagePlaceholder": "Ingrese su mensaje"
+    },
+    "description": "Bienvenido a Stuart Tax Group Inc, que se enorgullece de servir a la comunidad de Austin durante más de 24 años. Nos especializamos en brindar servicios tributarios expertos a individuos y empresas, ofreciendo soluciones personalizadas para satisfacer sus necesidades únicas.",
+    "subtitle": "Austin, TX",
+    "title": "Un Poco Sobre Nosotros"
   },
   "Error": {
-    "title": "Algo salió mal",
-    "description": "<p>Hemos encontrado un error.</p><p>Puedes intentar<retry>recargar la página</retry>que estabas vistiando</p>"
+    "description": "<p>Hemos encontrado un error.</p><p>Puedes intentar<retry>recargar la página</retry>que estabas vistiando</p>",
+    "title": "Algo salió mal"
   },
-  "NotFoundPage": {
-    "title": "Página no encontrada!",
-    "description": "Lo sentimos, no pudimos encontrar la página que estás buscando.",
-    "action": "Volver a la página de inicio",
-    "secondary-action": "Contacto de soporte"
+  "FAQPage": {
+    "faq1": {
+      "answer": "Para prepararse para su cita tributaria, reúna todos los documentos tributarios relevantes, como formularios W-2, formularios 1099, recibos de gastos deducibles y cualquier otro documento relacionado con los ingresos. También es útil organizar sus registros financieros y hacer una lista de cualquier pregunta o inquietud que pueda tener para su preparador de impuestos.",
+      "question": "¿Cómo puedo prepararme para mi cita de impuestos?"
+    },
+    "faq10": {
+      "answer": "Yes, we provide tax services in both English and Spanish to accommodate our diverse clientele. Our team is fluent in Spanish and can assist you with your tax needs effectively and professionally.",
+      "question": "¿Ofrecen servicios de impuestos en español?"
+    },
+    "faq2": {
+      "answer": "Para la preparación de impuestos comerciales, traiga todos los documentos financieros relevantes, como declaraciones de ingresos, registros de gastos, balances y cualquier otro documento relacionado con las finanzas de su empresa. Además, proporcione información sobre cualquier deducción o crédito comercial para el que pueda ser elegible.",
+      "question": "¿Qué debo llevar a mi cita de impuestos para la preparación de impuestos comerciales?"
+    },
+    "faq3": {
+      "answer": "El tiempo que lleva completar su declaración de impuestos depende de varios factores, incluida la complejidad de su situación fiscal y la disponibilidad de los documentos necesarios. Generalmente, nos esforzamos por completar su declaración de impuestos de manera precisa y eficiente, con el objetivo de minimizar cualquier retraso.",
+      "question": "¿Cuánto tiempo suele tardar en completar mi declaración de impuestos?"
+    },
+    "faq4": {
+      "answer": "Aceptamos varios métodos de pago, incluidos efectivo, cheque y tarjetas de crédito/débito. Además, podemos ofrecer opciones de pago en línea para mayor comodidad.",
+      "question": "¿Qué métodos de pago aceptan por sus servicios?"
+    },
+    "faq5": {
+      "answer": "Sí, ofrecemos servicios de planificación fiscal para ayudarle a minimizar su obligación tributaria y maximizar sus ahorros para el próximo año. Podemos evaluar su situación financiera y brindarle estrategias de planificación fiscal personalizadas adaptadas a sus objetivos.",
+      "question": "¿Pueden ayudarme con la planificación fiscal para el próximo año?"
+    },
+    "faq6": {
+      "answer": "Si recibe un aviso del IRS, es esencial que lo atienda con prontitud y precisión. Comuníquese con nuestra oficina y podremos ayudarlo a comprender el aviso y determinar el curso de acción apropiado. También ofrecemos servicios de representación de auditoría del IRS si es necesario.",
+      "question": "¿Qué debo hacer si recibo un aviso del IRS?"
+    },
+    "faq7": {
+      "answer": "La determinación de la elegibilidad para deducciones y créditos fiscales depende de varios factores, incluidos sus ingresos, gastos y circunstancias específicas. Podemos ayudarlo a evaluar su situación e identificar las deducciones y créditos aplicables para ayudar a minimizar su obligación tributaria.",
+      "question": "¿Cómo sé si califico para ciertas deducciones o créditos fiscales?"
+    },
+    "faq8": {
+      "answer": "Si no cumplió con la fecha límite de presentación de impuestos, es fundamental que presente sus impuestos lo antes posible para evitar multas y cargos por intereses. Comuníquese con nuestra oficina y podremos ayudarlo a presentar sus impuestos y explorar opciones para mitigar cualquier multa o tarifa.",
+      "question": "¿Qué debo hacer si no cumplí con la fecha límite para presentar la declaración de impuestos?"
+    },
+    "faq9": {
+      "answer": "En la mayoría de los casos, puede presentar sus impuestos electrónicamente (e-file), lo cual es más rápido, conveniente y seguro. Nuestra oficina de impuestos ofrece servicios de presentación electrónica para simplificar el proceso de presentación de impuestos para nuestros clientes.",
+      "question": "¿Puedo presentar mis impuestos electrónicamente o necesito enviarlos por correo?"
+    },
+    "subtitle": "¿Tiene alguna pregunta? Tenemos respuestas. Si no encuentra lo que busca, no dude en contactarnos.",
+    "title": "Pagina de Preguntas Frecuentes"
+  },
+  "IndexPage": {
+    "cards": {
+      "card1": {
+        "description": "Ofrecemos servicios asequibles de preparación de impuestos para todos.",
+        "title": "Soluciones Fiscales"
+      },
+      "card2": {
+        "description": "Manejamos impuestos sobre la nómina, deducciones, beneficios y más.",
+        "title": "Servicios de Nómina"
+      },
+      "card3": {
+        "description": "We can help resolve any tax issues and protect your rights.",
+        "title": "Defensa de Auditoría"
+      },
+      "card4": {
+        "description": "Podemos ayudarle a resolver cualquier problema fiscal y protegerle de la ley.",
+        "title": "Ayuda de Inmigración"
+      },
+      "card5": {
+        "description": "Servicios notariales convenientes y seguros para sus documentos legales.",
+        "title": "Servicios Notariales"
+      },
+      "card6": {
+        "description": "Contamos con un equipo de hablantes nativos de español para ayudar con las traducciones.",
+        "title": "Servicios de Traducción"
+      },
+      "subtitle": "Una lista de todos los servicios que ofrecemos para ayudarle con sus necesidades fiscales y contables.",
+      "title": "Nuestros Servicios"
+    },
+    "cta": "Contacta Con Nosotras",
+    "cta2": "Ver Servicios",
+    "description": "Nos especializamos en brindar servicios tributarios expertos a individuos y empresas, ofreciendo soluciones personalizadas para satisfacer sus necesidades únicas.",
+    "hero": "Servico de impuestos durante todo el año."
   },
   "LocaleLayout": {
     "title": "Stuart Tax Group Inc. - Español"
@@ -51,117 +106,62 @@
     "locale": "{locale, select, es {🇪🇸 Spanish} en {🇺🇸 English} other {Unknown}}"
   },
   "Navigation": {
-    "home": "Inicio",
     "about": "Quiénes somos",
-    "services": "Servicios",
     "faq": "El FAQ",
+    "home": "Inicio",
     "resources": {
-      "title": "Recursos",
       "action": "Ver todos",
       "action-subtitle": "Descubra una lista completa de documentos para descargar, completar y enviar",
       "form-description": {
         "I-9": "Verificación de elegibilidad laboral",
-        "W-9": "Solicitud de número de identificación del contribuyente",
-        "W-4": "Certificado de retenciones del empleado"
-      }
-    }
+        "W-4": "Certificado de retenciones del empleado",
+        "W-9": "Solicitud de número de identificación del contribuyente"
+      },
+      "title": "Recursos"
+    },
+    "services": "Servicios"
   },
-  "AboutPage": {
-    "title": "Un Poco Sobre Nosotros",
-    "subtitle": "Austin, TX",
-    "description": "Bienvenido a Stuart Tax Group Inc, que se enorgullece de servir a la comunidad de Austin durante más de 24 años. Nos especializamos en brindar servicios tributarios expertos a individuos y empresas, ofreciendo soluciones personalizadas para satisfacer sus necesidades únicas.",
-    "contact": "Contactenos",
-    "contactCard": {
-      "header1": "Nuestra Información de Contacto",
-      "header2": "Contactar por Correo Electrónico",
-      "firstName": "Primer Nombre",
-      "lastName": "Apellido",
-      "email": "Correo Electrónico",
-      "emailPlaceholder": "Ingrese su correo electrónico",
-      "message": "Mensaje",
-      "messagePlaceholder": "Ingrese su mensaje",
-      "action": "Enviar Mensaje"
-    }
-  },
-  "FAQPage": {
-    "title": "Pagina de Preguntas Frecuentes",
-    "subtitle": "¿Tiene alguna pregunta? Tenemos respuestas. Si no encuentra lo que busca, no dude en contactarnos.",
-    "faq1": {
-      "question": "¿Cómo puedo prepararme para mi cita de impuestos?",
-      "answer": "Para prepararse para su cita tributaria, reúna todos los documentos tributarios relevantes, como formularios W-2, formularios 1099, recibos de gastos deducibles y cualquier otro documento relacionado con los ingresos. También es útil organizar sus registros financieros y hacer una lista de cualquier pregunta o inquietud que pueda tener para su preparador de impuestos."
-    },
-    "faq2": {
-      "question": "¿Qué debo llevar a mi cita de impuestos para la preparación de impuestos comerciales?",
-      "answer": "Para la preparación de impuestos comerciales, traiga todos los documentos financieros relevantes, como declaraciones de ingresos, registros de gastos, balances y cualquier otro documento relacionado con las finanzas de su empresa. Además, proporcione información sobre cualquier deducción o crédito comercial para el que pueda ser elegible."
-    },
-    "faq3": {
-      "question": "¿Cuánto tiempo suele tardar en completar mi declaración de impuestos?",
-      "answer": "El tiempo que lleva completar su declaración de impuestos depende de varios factores, incluida la complejidad de su situación fiscal y la disponibilidad de los documentos necesarios. Generalmente, nos esforzamos por completar su declaración de impuestos de manera precisa y eficiente, con el objetivo de minimizar cualquier retraso."
-    },
-    "faq4": {
-      "question": "¿Qué métodos de pago aceptan por sus servicios?",
-      "answer": "Aceptamos varios métodos de pago, incluidos efectivo, cheque y tarjetas de crédito/débito. Además, podemos ofrecer opciones de pago en línea para mayor comodidad."
-    },
-    "faq5": {
-      "question": "¿Pueden ayudarme con la planificación fiscal para el próximo año?",
-      "answer": "Sí, ofrecemos servicios de planificación fiscal para ayudarle a minimizar su obligación tributaria y maximizar sus ahorros para el próximo año. Podemos evaluar su situación financiera y brindarle estrategias de planificación fiscal personalizadas adaptadas a sus objetivos."
-    },
-    "faq6": {
-      "question": "¿Qué debo hacer si recibo un aviso del IRS?",
-      "answer": "Si recibe un aviso del IRS, es esencial que lo atienda con prontitud y precisión. Comuníquese con nuestra oficina y podremos ayudarlo a comprender el aviso y determinar el curso de acción apropiado. También ofrecemos servicios de representación de auditoría del IRS si es necesario."
-    },
-    "faq7": {
-      "question": "¿Cómo sé si califico para ciertas deducciones o créditos fiscales?",
-      "answer": "La determinación de la elegibilidad para deducciones y créditos fiscales depende de varios factores, incluidos sus ingresos, gastos y circunstancias específicas. Podemos ayudarlo a evaluar su situación e identificar las deducciones y créditos aplicables para ayudar a minimizar su obligación tributaria."
-    },
-    "faq8": {
-      "question": "¿Qué debo hacer si no cumplí con la fecha límite para presentar la declaración de impuestos?",
-      "answer": "Si no cumplió con la fecha límite de presentación de impuestos, es fundamental que presente sus impuestos lo antes posible para evitar multas y cargos por intereses. Comuníquese con nuestra oficina y podremos ayudarlo a presentar sus impuestos y explorar opciones para mitigar cualquier multa o tarifa."
-    },
-    "faq9": {
-      "question": "¿Puedo presentar mis impuestos electrónicamente o necesito enviarlos por correo?",
-      "answer": "En la mayoría de los casos, puede presentar sus impuestos electrónicamente (e-file), lo cual es más rápido, conveniente y seguro. Nuestra oficina de impuestos ofrece servicios de presentación electrónica para simplificar el proceso de presentación de impuestos para nuestros clientes."
-    },
-    "faq10": {
-      "question": "¿Ofrecen servicios de impuestos en español?",
-      "answer": "Yes, we provide tax services in both English and Spanish to accommodate our diverse clientele. Our team is fluent in Spanish and can assist you with your tax needs effectively and professionally."
-    }
-  },
-  "ServicesPage": {
-    "title": "Nuestro Servicios",
-    "subtitle": "Deje que nuestros expertos le ayuden a navegar por las complejidades del código tributario. Ofrecemos una gama de servicios para satisfacer sus necesidades.",
-    "services": {
-      "service1": {
-        "title": "Servicios de preparación de impuestos",
-        "description": "Desde presentaciones básicas 1040EZ hasta declaraciones complejas de trabajadores autónomos y corporativos, el equipo de pir garantiza una preparación de impuestos precisa y eficiente sin complicaciones."
-      },
-      "service2": {
-        "title": "Asesoría y Soporte Financiero",
-        "description": "Ya sea que esté buscando consultas por horas o una planificación fiscal comercial integral, navegue sin problemas por las complejidades de los impuestos estatales con nuestro equipo."
-      },
-      "service3": {
-        "title": "Servicios de Preparación de Formularios de Impuestos",
-        "description": "Ofrecemos preparativos para el Formulario 1096 para pequeñas empresas. Además, podemos ayudarlo con el formulario 1099, desde detalles y pagos del contratista, o situaciones que involucran informes de compensación de no empleados."
-      },
-      "service4": {
-        "title": "Asistencia Para La Solicitud de ITIN",
-        "description": "Lo guiaremos a través de los requisitos y lo ayudaremos a completar el formulario W-7. Brindamos soporte práctico, revisión de documentos y resolución de cualquier desafío potencial de la aplicación. ¡Permítanos ayudarle a simplificar este proceso!"
-      },
-      "service5": {
-        "title": "Planificación de Impuestos Sobre Sucesiones y Donaciones",
-        "description": "Estrategias fiscales personalizadas para una planificación eficiente de sucesiones y donaciones, garantizando la seguridad financiera de sus seres queridos. Abordamos sus necesidades y objetivos únicos, brindándole tranquilidad para el futuro."
-      },
-      "service6": {
-        "title": "Servicios Profesionales de Consultoría Fiscal",
-        "description": "Benefíciese de nuestro asesoramiento experto con una consulta exploratoria adaptada a usted. Reciba un plan de acción personalizado sin la carga de tarifas por horas. Considere nuestro paquete para una sesión exhaustiva y un plan de seguimiento con el precio correspondiente."
-      }
-    }
+  "NotFoundPage": {
+    "action": "Volver a la página de inicio",
+    "description": "Lo sentimos, no pudimos encontrar la página que estás buscando.",
+    "secondary-action": "Contacto de soporte",
+    "title": "Página no encontrada!"
   },
   "ResourcesPage": {
     "content": {
-      "title": "Ver todos los recursos",
+      "action": "Abierta",
       "subtitle": "Nuestra lista completa de documentos para descargar, completar y enviar",
-      "action": "Abierta"
+      "title": "Ver todos los recursos"
     }
+  },
+  "ServicesPage": {
+    "services": {
+      "service1": {
+        "description": "Desde presentaciones básicas 1040EZ hasta declaraciones complejas de trabajadores autónomos y corporativos, el equipo de pir garantiza una preparación de impuestos precisa y eficiente sin complicaciones.",
+        "title": "Servicios de preparación de impuestos"
+      },
+      "service2": {
+        "description": "Ya sea que esté buscando consultas por horas o una planificación fiscal comercial integral, navegue sin problemas por las complejidades de los impuestos estatales con nuestro equipo.",
+        "title": "Asesoría y Soporte Financiero"
+      },
+      "service3": {
+        "description": "Ofrecemos preparativos para el Formulario 1096 para pequeñas empresas. Además, podemos ayudarlo con el formulario 1099, desde detalles y pagos del contratista, o situaciones que involucran informes de compensación de no empleados.",
+        "title": "Servicios de Preparación de Formularios de Impuestos"
+      },
+      "service4": {
+        "description": "Lo guiaremos a través de los requisitos y lo ayudaremos a completar el formulario W-7. Brindamos soporte práctico, revisión de documentos y resolución de cualquier desafío potencial de la aplicación. ¡Permítanos ayudarle a simplificar este proceso!",
+        "title": "Asistencia Para La Solicitud de ITIN"
+      },
+      "service5": {
+        "description": "Estrategias fiscales personalizadas para una planificación eficiente de sucesiones y donaciones, garantizando la seguridad financiera de sus seres queridos. Abordamos sus necesidades y objetivos únicos, brindándole tranquilidad para el futuro.",
+        "title": "Planificación de Impuestos Sobre Sucesiones y Donaciones"
+      },
+      "service6": {
+        "description": "Benefíciese de nuestro asesoramiento experto con una consulta exploratoria adaptada a usted. Reciba un plan de acción personalizado sin la carga de tarifas por horas. Considere nuestro paquete para una sesión exhaustiva y un plan de seguimiento con el precio correspondiente.",
+        "title": "Servicios Profesionales de Consultoría Fiscal"
+      }
+    },
+    "subtitle": "Deje que nuestros expertos le ayuden a navegar por las complejidades del código tributario. Ofrecemos una gama de servicios para satisfacer sus necesidades.",
+    "title": "Nuestro Servicios"
   }
 }

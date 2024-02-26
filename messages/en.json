@@ -1,47 +1,102 @@
 {
-  "IndexPage": {
-    "hero": "Year Round Tax Service",
-    "description": "We specialize in providing expert tax services to individuals and businesses, offering personalized solutions to meet your unique needs.",
-    "cta": "Contact Us",
-    "cta2": "View Services",
-    "cards": {
-      "title": "Our Services",
-      "subtitle": "A list of all the services we offer to help you with your tax and accounting needs.",
-      "card1": {
-        "title": "Tax Solutions",
-        "description": "We offer affordable tax preparation services for individuals and businesses."
-      },
-      "card2": {
-        "title": "Payroll Services",
-        "description": "We handle payroll taxes, deductions, benefits and more."
-      },
-      "card3": {
-        "title": "Audit Defense",
-        "description": "We can help resolve any tax issues and protect your rights."
-      },
-      "card4": {
-        "title": "Immigration Assistance",
-        "description": "We help with VISA applications, green cards or citizenship."
-      },
-      "card5": {
-        "title": "Notary Services",
-        "description": "Convenient and secure notary services for your legal documents."
-      },
-      "card6": {
-        "title": "Translation Services",
-        "description": "We have a team of native spanish speakers to help with translations."
-      }
-    }
+  "AboutPage": {
+    "contact": "Contact Information",
+    "contactCard": {
+      "action": "Send Message",
+      "email": "Email",
+      "emailPlaceholder": "Contact email address",
+      "firstName": "First Name",
+      "header1": "Our Information",
+      "header2": "Email Us Directly",
+      "lastName": "Last Name",
+      "message": "Message",
+      "messagePlaceholder": "Enter your message"
+    },
+    "description": "Welcome to Stuart Tax Group Inc, proudly serving the Austin community for over 24 years. We specialize in providing expert tax services to individuals and businesses, offering personalized solutions to meet your unique needs.",
+    "subtitle": "Austin, TX",
+    "title": "A Little About Us"
   },
   "Error": {
-    "title": "Something went wrong!",
-    "description": "<p>We've unfortunately encountered an error.</p><p>You can try to <retry>reload the page</retry> you were visiting.</p>"
+    "description": "<p>We've unfortunately encountered an error.</p><p>You can try to <retry>reload the page</retry> you were visiting.</p>",
+    "title": "Something went wrong!"
   },
-  "NotFoundPage": {
-    "title": "Page not found",
-    "description": "Sorry, we couldn't find the page you're looking for.",
-    "action": "Go back home",
-    "secondary-action": "Contact support"
+  "FAQPage": {
+    "faq1": {
+      "answer": "To prepare for your tax appointment, gather all relevant tax documents such as W-2 forms, 1099 forms, receipts for deductible expenses, and any other income-related documents. It's also helpful to organize your financial records and make a list of any questions or concerns you may have for your tax preparer.",
+      "question": "How can I prepare for my tax appointment?"
+    },
+    "faq10": {
+      "answer": "Yes, we provide tax services in both English and Spanish to accommodate our diverse clientele. Our team is fluent in Spanish and can assist you with your tax needs effectively and professionally.",
+      "question": "Do you offer tax services in Spanish?"
+    },
+    "faq2": {
+      "answer": "For business tax preparation, bring all relevant financial documents such as income statements, expense records, balance sheets, and any other documents related to your business finances. Additionally, provide information about any business deductions or credits you may be eligible for.",
+      "question": "What should I bring to my tax appointment for business tax preparation?"
+    },
+    "faq3": {
+      "answer": "The time it takes to complete your tax return depends on various factors, including the complexity of your tax situation and the availability of necessary documents. Generally, we strive to complete your tax return accurately and efficiently, aiming to minimize any delays.",
+      "question": "How long does it typically take to complete my tax return?"
+    },
+    "faq4": {
+      "answer": "We accept various payment methods, including cash, check, and credit/debit cards. Additionally, we may offer online payment options for added convenience.",
+      "question": "What payment methods do you accept for your services?"
+    },
+    "faq5": {
+      "answer": " Yes, we offer tax planning services to help you minimize your tax liability and maximize your savings for the upcoming year. We can assess your financial situation and provide personalized tax planning strategies tailored to your goals.",
+      "question": "Can you help me with tax planning for the upcoming year?"
+    },
+    "faq6": {
+      "answer": "If you receive a notice from the IRS, it's essential to address it promptly and accurately. Contact our office, and we can assist you in understanding the notice and determining the appropriate course of action. We also offer IRS audit representation services if needed.",
+      "question": "What should I do if I receive a notice from the IRS?"
+    },
+    "faq7": {
+      "answer": "Determining eligibility for tax deductions and credits depends on various factors, including your income, expenses, and specific circumstances. We can help assess your situation and identify applicable deductions and credits to help minimize your tax liability.",
+      "question": "How do I know if I qualify for certain tax deductions or credits?"
+    },
+    "faq8": {
+      "answer": "If you've missed the tax filing deadline, it's crucial to file your taxes as soon as possible to avoid penalties and interest charges. Contact our office, and we can assist you in filing your taxes and exploring options for mitigating any penalties or fees.",
+      "question": "What should I do if I have missed the tax filing deadline?"
+    },
+    "faq9": {
+      "answer": " In most cases, you can file your taxes electronically (e-file), which is faster, more convenient, and secure. Our tax office offers e-filing services to simplify the tax filing process for our clients.",
+      "question": "Can I file my taxes electronically, or do I need to mail them?"
+    },
+    "subtitle": "Got a question? We've got answers. If you can't find what you're looking for, feel free to contact us",
+    "title": "Frequently Asked Questions"
+  },
+  "IndexPage": {
+    "cards": {
+      "card1": {
+        "description": "We offer affordable tax preparation services for individuals and businesses.",
+        "title": "Tax Solutions"
+      },
+      "card2": {
+        "description": "We handle payroll taxes, deductions, benefits and more.",
+        "title": "Payroll Services"
+      },
+      "card3": {
+        "description": "We can help resolve any tax issues and protect your rights.",
+        "title": "Audit Defense"
+      },
+      "card4": {
+        "description": "We help with VISA applications, green cards or citizenship.",
+        "title": "Immigration Assistance"
+      },
+      "card5": {
+        "description": "Convenient and secure notary services for your legal documents.",
+        "title": "Notary Services"
+      },
+      "card6": {
+        "description": "We have a team of native spanish speakers to help with translations.",
+        "title": "Translation Services"
+      },
+      "subtitle": "A list of all the services we offer to help you with your tax and accounting needs.",
+      "title": "Our Services"
+    },
+    "cta": "Contact Us",
+    "cta2": "View Services",
+    "description": "We specialize in providing expert tax services to individuals and businesses, offering personalized solutions to meet your unique needs.",
+    "hero": "Year Round Tax Service"
   },
   "LocaleLayout": {
     "title": "Stuart Tax Group Inc."
@@ -51,117 +106,62 @@
     "locale": "{locale, select, es {🇪🇸 Spanish} en {🇺🇸 English} other {Unknown}}"
   },
   "Navigation": {
-    "home": "Home",
     "about": "About",
-    "services": "Services",
     "faq": "FAQ",
+    "home": "Home",
     "resources": {
-      "title": "Resources",
       "action": "View all resources",
       "action-subtitle": "A complete list of documents to download, fill out, and submit",
       "form-description": {
         "I-9": "Employment Eligibility Verification",
-        "W-9": "Request for taxpayer identification number",
-        "W-4": "Employees withholding certificate"
-      }
-    }
+        "W-4": "Employees withholding certificate",
+        "W-9": "Request for taxpayer identification number"
+      },
+      "title": "Resources"
+    },
+    "services": "Services"
   },
-  "AboutPage": {
-    "title": "A Little About Us",
-    "subtitle": "Austin, TX",
-    "description": "Welcome to Stuart Tax Group Inc, proudly serving the Austin community for over 24 years. We specialize in providing expert tax services to individuals and businesses, offering personalized solutions to meet your unique needs.",
-    "contact": "Contact Information",
-    "contactCard": {
-      "header1": "Our Information",
-      "header2": "Email Us Directly",
-      "firstName": "First Name",
-      "lastName": "Last Name",
-      "email": "Email",
-      "emailPlaceholder": "Contact email address",
-      "message": "Message",
-      "messagePlaceholder": "Enter your message",
-      "action": "Send Message"
-    }
-  },
-  "FAQPage": {
-    "title": "Frequently Asked Questions",
-    "subtitle": "Got a question? We've got answers. If you can't find what you're looking for, feel free to contact us",
-    "faq1": {
-      "question": "How can I prepare for my tax appointment?",
-      "answer": "To prepare for your tax appointment, gather all relevant tax documents such as W-2 forms, 1099 forms, receipts for deductible expenses, and any other income-related documents. It's also helpful to organize your financial records and make a list of any questions or concerns you may have for your tax preparer."
-    },
-    "faq2": {
-      "question": "What should I bring to my tax appointment for business tax preparation?",
-      "answer": "For business tax preparation, bring all relevant financial documents such as income statements, expense records, balance sheets, and any other documents related to your business finances. Additionally, provide information about any business deductions or credits you may be eligible for."
-    },
-    "faq3": {
-      "question": "How long does it typically take to complete my tax return?",
-      "answer": "The time it takes to complete your tax return depends on various factors, including the complexity of your tax situation and the availability of necessary documents. Generally, we strive to complete your tax return accurately and efficiently, aiming to minimize any delays."
-    },
-    "faq4": {
-      "question": "What payment methods do you accept for your services?",
-      "answer": "We accept various payment methods, including cash, check, and credit/debit cards. Additionally, we may offer online payment options for added convenience."
-    },
-    "faq5": {
-      "question": "Can you help me with tax planning for the upcoming year?",
-      "answer": " Yes, we offer tax planning services to help you minimize your tax liability and maximize your savings for the upcoming year. We can assess your financial situation and provide personalized tax planning strategies tailored to your goals."
-    },
-    "faq6": {
-      "question": "What should I do if I receive a notice from the IRS?",
-      "answer": "If you receive a notice from the IRS, it's essential to address it promptly and accurately. Contact our office, and we can assist you in understanding the notice and determining the appropriate course of action. We also offer IRS audit representation services if needed."
-    },
-    "faq7": {
-      "question": "How do I know if I qualify for certain tax deductions or credits?",
-      "answer": "Determining eligibility for tax deductions and credits depends on various factors, including your income, expenses, and specific circumstances. We can help assess your situation and identify applicable deductions and credits to help minimize your tax liability."
-    },
-    "faq8": {
-      "question": "What should I do if I have missed the tax filing deadline?",
-      "answer": "If you've missed the tax filing deadline, it's crucial to file your taxes as soon as possible to avoid penalties and interest charges. Contact our office, and we can assist you in filing your taxes and exploring options for mitigating any penalties or fees."
-    },
-    "faq9": {
-      "question": "Can I file my taxes electronically, or do I need to mail them?",
-      "answer": " In most cases, you can file your taxes electronically (e-file), which is faster, more convenient, and secure. Our tax office offers e-filing services to simplify the tax filing process for our clients."
-    },
-    "faq10": {
-      "question": "Do you offer tax services in Spanish?",
-      "answer": "Yes, we provide tax services in both English and Spanish to accommodate our diverse clientele. Our team is fluent in Spanish and can assist you with your tax needs effectively and professionally."
-    }
-  },
-  "ServicesPage": {
-    "title": "Our Services",
-    "subtitle": "Let our experts help you navigate the complexities of the tax code. We offer a range of services to meet your needs.",
-    "services": {
-      "service1": {
-        "title": "Tax Preparation Services",
-        "description": "From basic 1040EZ filings to complex self-employed and corporate returns, pir team ensures accurate and efficient tax preparation without the hassle."
-      },
-      "service2": {
-        "title": "Financial Consulting and Support",
-        "description": "Whether you're seeking hourly consultations or comprehensive business tax planning, navigate state tax complexities seamlessly with our team."
-      },
-      "service3": {
-        "title": "Tax Form Preparation Services",
-        "description": "We offer preparations for the 1096 Form for small businesses. Additionally we can assist with the 1099 Form, from contractor details and payments, or situations involving non-employee compensation reporting."
-      },
-      "service4": {
-        "title": "ITIN Application Assistance",
-        "description": "We will guide you through the requirements, and assist in completing the W-7 Form. We provide hands-on support, document review, and resolution of any potential application challenges. Let us help simplify this process for you!"
-      },
-      "service5": {
-        "title": "Estate and Gift Tax Planning",
-        "description": "Tailored tax strategies for efficient estate and gift planning, ensuring financial security for your loved ones. We address your unique needs and goals, providing peace of mind for the future."
-      },
-      "service6": {
-        "title": "Professional Tax Consulting Services",
-        "description": "Benefit from our expert advice with an exploratory consultation tailored to you. Receive a personalized plan of action without the burden of hourly rates. Consider our package deal for a thorough session and follow-up plan priced accordingly."
-      }
-    }
+  "NotFoundPage": {
+    "action": "Go back home",
+    "description": "Sorry, we couldn't find the page you're looking for.",
+    "secondary-action": "Contact support",
+    "title": "Page not found"
   },
   "ResourcesPage": {
     "content": {
-      "title": "View all resources",
+      "action": "View",
       "subtitle": "Our complete list of documents to download, fill out, and submit",
-      "action": "View"
+      "title": "View all resources"
     }
+  },
+  "ServicesPage": {
+    "services": {
+      "service1": {
+        "description": "From basic 1040EZ filings to complex self-employed and corporate returns, pir team ensures accurate and efficient tax preparation without the hassle.",
+        "title": "Tax Preparation Services"
+      },
+      "service2": {
+        "description": "Whether you're seeking hourly consultations or comprehensive business tax planning, navigate state tax complexities seamlessly with our team.",
+        "title": "Financial Consulting and Support"
+      },
+      "service3": {
+        "description": "We offer preparations for the 1096 Form for small businesses. Additionally we can assist with the 1099 Form, from contractor details and payments, or situations involving non-employee compensation reporting.",
+        "title": "Tax Form Preparation Services"
+      },
+      "service4": {
+        "description": "We will guide you through the requirements, and assist in completing the W-7 Form. We provide hands-on support, document review, and resolution of any potential application challenges. Let us help simplify this process for you!",
+        "title": "ITIN Application Assistance"
+      },
+      "service5": {
+        "description": "Tailored tax strategies for efficient estate and gift planning, ensuring financial security for your loved ones. We address your unique needs and goals, providing peace of mind for the future.",
+        "title": "Estate and Gift Tax Planning"
+      },
+      "service6": {
+        "description": "Benefit from our expert advice with an exploratory consultation tailored to you. Receive a personalized plan of action without the burden of hourly rates. Consider our package deal for a thorough session and follow-up plan priced accordingly.",
+        "title": "Professional Tax Consulting Services"
+      }
+    },
+    "subtitle": "Let our experts help you navigate the complexities of the tax code. We offer a range of services to meet your needs.",
+    "title": "Our Services"
   }
 }
