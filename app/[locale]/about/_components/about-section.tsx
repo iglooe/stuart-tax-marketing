@@ -1,10 +1,9 @@
-import Image from "next/image"
-import PlaceholderSVG from "@/public/placeholder.svg"
 import { useTranslations } from "next-intl"
 
 import { fontHeading } from "@/lib/fonts"
 import { BackdropBlur } from "@/components/ui/backdrop"
 import { Shell } from "@/components/ui/shell"
+import { Icons } from "@/components/icons"
 
 export function AboutSection() {
   const t = useTranslations("AboutPage")
@@ -15,17 +14,7 @@ export function AboutSection() {
         <main className="flex-1 py-6 lg:py-12">
           <div className="container flex flex-col items-center gap-6 px-4 text-lg lg:gap-10 lg:px-6 xl:text-xl">
             <div className="flex flex-col items-center gap-2 text-center lg:gap-4">
-              <Image
-                alt="Avatar"
-                className="rounded-full object-cover"
-                height="160"
-                src={PlaceholderSVG}
-                style={{
-                  aspectRatio: "160/160",
-                  objectFit: "cover",
-                }}
-                width="160"
-              />
+              <Icons.texas className="size-48 text-primary" />
               <div className="space-y-2">
                 <h1
                   className={`${fontHeading.className} text-3xl font-bold sm:text-4xl md:text-5xl`}

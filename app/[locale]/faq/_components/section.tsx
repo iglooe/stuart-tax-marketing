@@ -12,7 +12,7 @@ export function FAQSection() {
   const t = useTranslations("FAQPage")
 
   return (
-    <Shell>
+    <Shell variant="markdown4xl">
       <div className="w-full">
         <div className="container px-4 md:px-6">
           <div className="flex flex-col items-center justify-center space-y-2 pb-8 text-center">
