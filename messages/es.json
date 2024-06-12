@@ -4,13 +4,14 @@
     "contactCard": {
       "action": "Enviar Mensaje",
       "email": "Correo Electrónico",
-      "emailPlaceholder": "Ingrese su correo electrónico",
+      "emailDescription": "Su direccion de correo electrónico",
       "firstName": "Primer Nombre",
-      "header1": "Nuestra Información de Contacto",
-      "header2": "Contactar por Correo Electrónico",
+      "header1": "Nuestra Información de Contacto.",
+      "header2": "Contactar por Correo Electrónico.",
       "lastName": "Apellido",
       "message": "Mensaje",
-      "messagePlaceholder": "Ingrese su mensaje"
+      "messageAction": "Ingrese texto aqui",
+      "messageDescription": "Texto del cuerpo del correo electrónico"
     },
     "description": "Bienvenido a Stuart Tax Group Inc, que se enorgullece de servir a la comunidad de Austin durante más de 24 años. Nos especializamos en brindar servicios tributarios expertos a individuos y empresas, ofreciendo soluciones personalizadas para satisfacer sus necesidades únicas.",
     "subtitle": "Austin, TX",
